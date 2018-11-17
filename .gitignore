@@ -1,0 +1,6 @@
+# uncompiled css
+/public/assets/css/main.css
+/public/assets/css/main.css.map
+
+# misc
+.DS_Store

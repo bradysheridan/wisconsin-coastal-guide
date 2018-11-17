@@ -1,0 +1,86 @@
+$checkmark-size: 20px;
+$wrap-height: $checkmark-size + 15px;
+$check-width: 5px;
+$check-height: 10px;
+$transition: 200ms;
+
+.checklist {
+  // hide default checkbox
+  .checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  // label wrap (full row)
+  .checkbox-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: $wrap-height;
+    font-size: 1.6rem;
+    color: $white;
+    padding-left: $checkmark-size + 15px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  // checkbox
+  .checkmark {
+    position: absolute;
+    top: ($wrap-height - $checkmark-size) / 2;
+    left: 0;
+    height: $checkmark-size;
+    width: $checkmark-size;
+    border-radius: 4px;
+    background-color: $light-black;
+    border: 1px solid transparent;
+    transition: $transition;
+  }
+
+  // hovered
+  .checkbox-wrap:hover input ~ .checkmark {
+    background-color: $light-black;
+    border: 1px solid $mint-green;
+    transition: $transition;
+  }
+
+  // checked
+  .checkbox-wrap input:checked ~ .checkmark {
+    border: 1px solid $green;
+    transition: $transition;
+  }
+
+  // hide checkmark when not checked
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    opacity: 0;
+    transition: $transition;
+  }
+
+  // show checkmark when checked
+  .checkbox-wrap input:checked ~ .checkmark:after {
+    opacity: 1;
+    transition: $transition;
+  }
+
+  // checkmark
+  .checkbox-wrap .checkmark:after {
+    width: $check-width;
+    height: $check-height;
+    left: $checkmark-size / 2 - $check-width + 1.8;
+    top: $checkmark-size / 2 - $check-height + 2.3;
+    border: solid $mint-green;
+    border-width: 0 1.5px 1.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

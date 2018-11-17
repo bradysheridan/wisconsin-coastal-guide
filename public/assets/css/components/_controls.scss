@@ -1,0 +1,48 @@
+$toggler-height: 7%;
+$distance-from-bottom-on-mobile: 93%;
+
+#controls-wrap {
+  width: 25%;
+  height: 100%;
+  background-color: $black;
+
+  > div {
+    padding: 10px 20px 10px 20px;
+  }
+
+  h6 {
+    color: $white;
+  }
+
+  #toggler {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: $toggler-height;
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  #controls-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    left: 0px;
+    bottom: $distance-from-bottom-on-mobile;
+
+    #toggler {
+      display: flex;
+    }
+
+    transition: 300ms;
+    &.visible {
+      transition: 300ms;
+      bottom: 0px;
+    }
+  }
+}
