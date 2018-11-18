@@ -12,21 +12,28 @@ $(function() {
 // loop through LAYERS and assign each object a checkbox; append checkboxes
 // to DOM
 function renderCheckboxes() {
-  var checkboxElements = Object.keys(LAYERS).map((k) => {
-    let d = LAYERS[k]
+  var pointLayers = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "points")
+  var pathLayers = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "paths")
+  var checkboxElementsForPointLayers = getCheckboxElements(pointLayers)
+  var checkboxElementsForPathLayers = getCheckboxElements(pathLayers)
+  $("#checklist-for-point-layers").append(checkboxElementsForPointLayers)
+  $("#checklist-for-path-layers").append(checkboxElementsForPathLayers)
 
-    if ("" === d.filename) return
+  function getCheckboxElements(layers) {
+    return layers.map((k) => {
+      let d = LAYERS[k]
 
-    return `
-      <label class="checkbox-wrap">
-        ${d.text}
-        <input type="checkbox" ${(d.initiallyChecked) ? 'checked' : ''} onclick='handleCheckboxClick(this, "${d.filename}")' maplayerid="${d.filename}">
-        <span class="checkmark"></span>
-      </label>
-    `
-  })
+      if ("" === d.filename) return
 
-  $("#place-type-checklist").append(checkboxElements)
+      return `
+        <label class="checkbox-wrap">
+          ${d.text}
+          <input type="checkbox" ${(d.initiallyChecked) ? 'checked' : ''} onclick='handleCheckboxClick(this, "${d.filename}")' maplayerid="${d.filename}">
+          <span class="checkmark"></span>
+        </label>
+      `
+    })
+  }
 }
 
 // toggle corresponding map layer's visibility

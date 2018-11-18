@@ -8,6 +8,8 @@ const anchors = {
 
 // layer generators
 const layerOf = {
+
+  // generate a layer of circles
   points: ({filename, fill, initiallyChecked}) => ({
     id: filename,
     type: 'circle',
@@ -17,7 +19,7 @@ const layerOf = {
     },
     paint: {
       'circle-radius': {
-        'stops': [[6, 3], [30, 20]]
+        'stops': [[6, 3.5], [30, 20]]
       },
       'circle-color': fill || '#1b9dd5',
       'circle-stroke-width': 1,
@@ -25,6 +27,28 @@ const layerOf = {
     },
     layout: {
       'visibility': (initiallyChecked) ? 'visible' : 'none'
+    }
+  }),
+
+  // generate a layer of lines
+  paths: ({filename, fill, initiallyChecked}) => ({
+    id: filename,
+    type: 'line',
+    source: {
+      type: 'geojson',
+      data: `../../data/geojson/${filename}`,
+      tolerance: 0
+    },
+    paint: {
+      'line-color': fill || '#1b9dd5',
+      'line-width': {
+        'stops': [[6, 3.4], [30, 10]]
+      }
+    },
+    layout: {
+      'visibility': (initiallyChecked) ? 'visible' : 'none',
+      'line-join': 'round',
+      'line-cap': 'round'
     }
   })
 }
@@ -34,8 +58,8 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
   center: anchors.wi,
-  zoom: 4.0,
-  minZoom: 4.0,
+  zoom: 5.6,
+  minZoom: 5.6,
   maxZoom: 11.0,
   maxBounds: [
     [-95.64086454193206, 40.674929759579015],
@@ -45,23 +69,30 @@ const map = new mapboxgl.Map({
 
 // load layers
 map.on('load', function() {
-  Object.keys(LAYERS).forEach((k) => {
+  var firstSymbolID = map.getStyle().layers.filter((d) => d.type === 'symbol')[0].id
+
+  // render path layers
+  PATH_LAYER_KEYS.forEach((k) => {
     let layer = LAYERS[k]
-
-    // no data source, do nothing
     if (!layer.filename) return
-
-    // render points
-    if ("points" === layer.geographyType) {
-      map.addLayer(layerOf.points(layer))
-    }
-
-    // render paths
-    if ("paths" === layer.geographyType) {
-      console.log('Would render paths for', layer.filename)
-    }
+    map.addLayer(layerOf.paths(layer), firstSymbolID)
   })
 
+  // render point layers
+  POINT_LAYER_KEYS.forEach((k) => {
+    let layer = LAYERS[k]
+    if (!layer.filename) return
+    map.addLayer(layerOf.points(layer), firstSymbolID)
+  })
+
+  // adds user location tracker
+  map.addControl(new mapboxgl.GeolocateControl({
+    positionOptions: { enableHighAccuracy: true },
+    trackUserLocation: true
+  }))
+
+  // logs coordinates of cursor when map is clicked (use to easily adjust
+  // anchors and pan bounds)
   map.on('click', function (e) {
     console.log(`[${e.lngLat.lng}, ${e.lngLat.lat}]`)
   })

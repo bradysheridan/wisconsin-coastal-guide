@@ -21,7 +21,7 @@ const LAYERS = {
     "geographyType": "paths"
   },
   "boatAccess": {
-    "text": "Boat Access",
+    "text": "Boat Access Points",
     "initiallyChecked": false,
     "filename": "wcg-boat-access.geojson",
     "fill": "#1b60d5",
@@ -56,7 +56,7 @@ const LAYERS = {
     "geographyType": "points"
   },
   "historicSitesLakeSuperior": {
-    "text": "Historic Sites - Lake Superior",
+    "text": "Historic Sites on Lake Superior",
     "initiallyChecked": false,
     "filename": "wcg-historic-ls.geojson",
     "fill": "#cc1bd5",
@@ -126,3 +126,7 @@ const LAYERS = {
     "geographyType": "points"
   }
 }
+
+const LAYER_KEYS = Object.keys(LAYERS)
+const POINT_LAYER_KEYS = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "points")
+const PATH_LAYER_KEYS = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "paths")
