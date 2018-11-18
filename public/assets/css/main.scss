@@ -8,8 +8,7 @@ html, body {
   margin: 0px;
 }
 
+// set size of attributions in mapbox footer
 .mapboxgl-ctrl-attrib {
-  a {
-    font-size: 1.2rem;
-  }
+  a { font-size: 1.2rem; }
 }

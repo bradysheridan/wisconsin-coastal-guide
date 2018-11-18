@@ -36,6 +36,7 @@ $distance-from-bottom-on-mobile: 93%;
     bottom: $distance-from-bottom-on-mobile;
 
     #toggler {
+      transition: 300ms;
       display: flex;
     }
 
@@ -43,6 +44,12 @@ $distance-from-bottom-on-mobile: 93%;
     &.visible {
       transition: 300ms;
       bottom: 0px;
+
+      #toggler {
+        transition: 300ms;
+        padding-bottom: 25px;
+        border-top: 1px solid $light-black;
+      }
     }
   }
 }

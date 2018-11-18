@@ -2,5 +2,8 @@
 /public/assets/css/main.css
 /public/assets/css/main.css.map
 
+# node packages
+/node_modules
+
 # misc
 .DS_Store

@@ -5,6 +5,10 @@ $check-height: 10px;
 $transition: 200ms;
 
 .checklist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   // hide default checkbox
   .checkbox-wrap input {
     position: absolute;
@@ -28,6 +32,11 @@ $transition: 200ms;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    width: 100%;
+    @media screen and (max-width: $bp-mobile) {
+      width: 43%;
+    }
   }
 
   // checkbox

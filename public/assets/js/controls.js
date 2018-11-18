@@ -1,38 +1,6 @@
 $(function() {
-
-  // instantiate checkboxes
-  const checkboxes = [
-    { name: 'panoramas', text: '360 Degree Panoramas', checked: true },
-    { name: 'beaches', text: 'Beaches', checked: false },
-    { name: 'bikeRoutes', text: 'Bike Routes', checked: false },
-    { name: 'boatAccess', text: 'Boat Access', checked: false },
-    { name: 'lakeMichiganCircleTour', text: 'Lake Michigan Circle Tour', checked: false },
-    { name: 'lakeSuperiorCircleTour', text: 'Lake Superior Circle Tour', checked: false },
-    { name: 'greatLakesStories', text: 'Great Lakes Stories', checked: false },
-    { name: 'harborTowns', text: 'Harbor Towns', checked: false },
-    { name: 'historicSitesLakeSuperior', text: 'Historic Sites - Lake Superior', checked: false },
-    { name: 'lighthouses', text: 'Lighthouses', checked: false },
-    { name: 'marinas', text: 'Marinas', checked: false },
-    { name: 'maritimeHistoryGeocaches', text: 'Maritime History Geocaches', checked: false },
-    { name: 'natureCenters', text: 'Nature Centers', checked: false },
-    { name: 'parks', text: 'Parks', checked: false },
-    { name: 'rusticRoads', text: 'Rustic Roads', checked: false },
-    { name: 'scenicByways', text: 'Scenic Byways', checked: false },
-    { name: 'shipwrecks', text: 'Shipwrecks', checked: false },
-    { name: 'stateNaturalAreas', text: 'State Natural Areas', checked: false }
-  ]
-
-  var checkboxElements = checkboxes.map((d) => {
-    return `
-      <label class="checkbox-wrap">
-        ${d.text}
-        <input type="checkbox" ${(d.checked) ? 'checked' : ''}>
-        <span class="checkmark"></span>
-      </label>
-    `
-  })
-
-  $("#place-type-checklist").append(checkboxElements)
+  // render checkboxes
+  renderCheckboxes()
 
   // toggle logic for mobile side menu
   $('#toggler').click(() => !$('#controls-wrap').attr('class')
@@ -40,3 +8,28 @@ $(function() {
     : $('#controls-wrap').attr('class', '')
   )
 })
+
+// loop through LAYERS and assign each object a checkbox; append checkboxes
+// to DOM
+function renderCheckboxes() {
+  var checkboxElements = Object.keys(LAYERS).map((k) => {
+    let d = LAYERS[k]
+
+    if ("" === d.filename) return
+
+    return `
+      <label class="checkbox-wrap">
+        ${d.text}
+        <input type="checkbox" ${(d.initiallyChecked) ? 'checked' : ''} onclick='handleCheckboxClick(this, "${d.filename}")' maplayerid="${d.filename}">
+        <span class="checkmark"></span>
+      </label>
+    `
+  })
+
+  $("#place-type-checklist").append(checkboxElements)
+}
+
+// toggle corresponding map layer's visibility
+function handleCheckboxClick(cb, layerID) {
+  map.setLayoutProperty(layerID, 'visibility', (cb.checked) ? 'visible' : 'none')
+}
