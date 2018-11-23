@@ -15,7 +15,7 @@ const layerOf = {
     type: 'circle',
     source: {
       type: 'geojson',
-      data: `../../data/geojson/${filename}`
+      data: `../../data/serve/geojson/${filename}`
     },
     paint: {
       'circle-radius': {
@@ -36,7 +36,7 @@ const layerOf = {
     type: 'line',
     source: {
       type: 'geojson',
-      data: `../../data/geojson/${filename}`,
+      data: `../../data/serve/geojson/${filename}`,
       tolerance: 0
     },
     paint: {
@@ -75,14 +75,32 @@ map.on('load', function() {
   PATH_LAYER_KEYS.forEach((k) => {
     let layer = LAYERS[k]
     if (!layer.filename) return
+
+    // add layer
     map.addLayer(layerOf.paths(layer), firstSymbolID)
+
+    // bind click events to function located in eventHandlers.js
+    map.on('click', layer.filename, handlePathClick)
+
+    // turn cursor into a pointer on hover
+    map.on('mouseenter', layer.filename, function() { map.getCanvas().style.cursor = 'pointer' })
+    map.on('mouseleave', layer.filename, function() { map.getCanvas().style.cursor = '' })
   })
 
   // render point layers
   POINT_LAYER_KEYS.forEach((k) => {
     let layer = LAYERS[k]
     if (!layer.filename) return
+
+    // add layer
     map.addLayer(layerOf.points(layer), firstSymbolID)
+
+    // bind click events to function located in eventHandlers.js
+    map.on('click', layer.filename, handlePointClick)
+
+    // turn cursor into a pointer on hover
+    map.on('mouseenter', layer.filename, function() { map.getCanvas().style.cursor = 'pointer' })
+    map.on('mouseleave', layer.filename, function() { map.getCanvas().style.cursor = '' })
   })
 
   // adds user location tracker
@@ -90,6 +108,15 @@ map.on('load', function() {
     positionOptions: { enableHighAccuracy: true },
     trackUserLocation: true
   }))
+
+  // Use the same approach as above to indicate that the symbols are clickable
+  // by changing the cursor style to 'pointer'.
+  // map.on('mousemove', function (e) {
+  //     map.featuresAt(e.point, {radius: 10}, function (err, features) {
+  //         if (err) throw err;
+  //         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
+  //     });
+  // });
 
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)

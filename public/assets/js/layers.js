@@ -9,7 +9,7 @@ const LAYERS = {
   "beaches": {
     "text": "Beaches",
     "initiallyChecked": true,
-    "filename": "wcg-beaches.geojson",
+    "filename": "wcg-beaches.json",
     "fill": "#1bb3d5",
     "geographyType": "points"
   },

@@ -1,0 +1,36 @@
+#header-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  background-color: $light-black;
+  // border-bottom: 1px solid $white;
+  color: $white;
+
+  > div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &:first-child {
+      padding-left: 15px;
+    }
+
+    &:last-child {
+      justify-content: flex-end;
+      * { margin-right: 15px; }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    transition: 200ms;
+    &:hover {
+      transition: 200ms;
+      opacity: 0.8;
+    }
+  }
+}

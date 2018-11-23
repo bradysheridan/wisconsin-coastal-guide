@@ -4,7 +4,8 @@
   "description": "",
   "main": "_app.js",
   "scripts": {
-    "start": "node _app.js"
+    "start": "node _app.js",
+    "fix-beaches": "run-func ./node-scripts/fix-beaches.js fixBeaches"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,12 @@
   "dependencies": {
     "ejs": "^2.4.2",
     "express": "^4.14.0",
-    "path": "^0.12.7"
+    "klaw": "^3.0.0",
+    "path": "^0.12.7",
+    "showdown": "^1.9.0"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "run-func": "^1.0.2"
   }
 }
