@@ -23,7 +23,7 @@ const LAYERS = {
   "boatAccess": {
     "text": "Boat Access Points",
     "initiallyChecked": false,
-    "filename": "wcg-boat-access.geojson",
+    "filename": "wcg-boat-access.json",
     "fill": "#1b60d5",
     "geographyType": "points"
   },

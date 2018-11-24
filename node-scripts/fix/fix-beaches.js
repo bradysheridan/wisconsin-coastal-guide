@@ -1,7 +1,7 @@
 var fs = require('fs')
 
-module.exports.fixBeaches = function() {
-  const data = require('../public/data/dont-serve/geojson/wcg-beaches.json')
+module.exports.run = function() {
+  const data = require('../../public/data/dont-serve/geojson/wcg-beaches.json')
 
   var json = {
     "type": "FeatureCollection",

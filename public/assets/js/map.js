@@ -67,6 +67,10 @@ const map = new mapboxgl.Map({
   ]
 })
 
+var mapState = {
+  activePopup: null
+}
+
 // load layers
 map.on('load', function() {
   var firstSymbolID = map.getStyle().layers.filter((d) => d.type === 'symbol')[0].id
@@ -108,15 +112,6 @@ map.on('load', function() {
     positionOptions: { enableHighAccuracy: true },
     trackUserLocation: true
   }))
-
-  // Use the same approach as above to indicate that the symbols are clickable
-  // by changing the cursor style to 'pointer'.
-  // map.on('mousemove', function (e) {
-  //     map.featuresAt(e.point, {radius: 10}, function (err, features) {
-  //         if (err) throw err;
-  //         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
-  //     });
-  // });
 
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)

@@ -5,7 +5,7 @@
   "main": "_app.js",
   "scripts": {
     "start": "node _app.js",
-    "fix-beaches": "run-func ./node-scripts/fix-beaches.js fixBeaches"
+    "fix": "run-func ./node-scripts/fix/_index.js fix"
   },
   "repository": {
     "type": "git",

@@ -3,6 +3,10 @@ function handlePathClick(e) {
 }
 
 function handlePointClick(e) {
+  if (mapState.activePopup) {
+    mapState.activePopup.remove()
+  }
+
   var feature = e.features[0]
   var coordinates = feature.geometry.coordinates.slice()
   var html = popupFor[feature.layer.id](feature.properties)
@@ -27,14 +31,16 @@ function handlePointClick(e) {
   }
 
   // render popup
-  new mapboxgl.Popup({offset: popupOffsets, className: 'popup-wrap'})
+  var popup = new mapboxgl.Popup({offset: popupOffsets, className: 'popup-wrap'})
     .setLngLat(coordinates)
     .setHTML(html)
     .addTo(map)
 
+  mapState.activePopup = popup
+
   // reposition map
   map.flyTo({
     center: coordinates,
-    zoom: 9.5
+    zoom: (map.getZoom() > 9.5) ? map.getZoom() : 9.5
   })
 }
