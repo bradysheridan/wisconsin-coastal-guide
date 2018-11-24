@@ -44,7 +44,7 @@ const LAYERS = {
   "greatLakesStories": {
     "text": "Great Lakes Stories",
     "initiallyChecked": false,
-    "filename": "wcg-stories.geojson",
+    "filename": "wcg-stories.json",
     "fill": "#7d1bd5",
     "geographyType": "points"
   },

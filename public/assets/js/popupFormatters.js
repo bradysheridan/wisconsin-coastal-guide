@@ -20,8 +20,7 @@ const popupFor = {
           ? `<p>EPA ID: ${properties.epaId}</p>`
           : ''
       }
-      <div class="separator">
-      </div>
+      <div class="separator"></div>
       <a href="http://www.wibeaches.us/" target="_blank">
         <p>
           http://www.wibeaches.us/
@@ -39,6 +38,25 @@ const popupFor = {
     </div>
     <div class="body-wrap">
       <p>${properties.description}</p>
+    </div>
+  `,
+
+  // great lakes stories
+  // boat access points
+  'wcg-stories.json': (properties) => `
+    <div class="title-wrap">
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
+      <div class="separator"></div>
+      <a href="${properties.readMoreLink}" target="_blank">
+        <p>
+          Read more.
+        </p>
+      </a>
     </div>
   `,
 }
