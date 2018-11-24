@@ -8,7 +8,7 @@ module.exports.run = function() {
     "features": data.features.map((d, i) => {
       var description = JSON.stringify(d.properties.description)
       var buffer = description.split('<p>')
-      var formattedDescription = buffer[1].split('</p>')[0].trim()
+      var formattedDescription = buffer[1].split('</p>')[0].replace(/\r?\\n/g, "").trim()
 
       return {
         "type": "Feature",
