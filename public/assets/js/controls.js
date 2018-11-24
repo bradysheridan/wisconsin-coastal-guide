@@ -39,4 +39,11 @@ function renderCheckboxes() {
 // toggle corresponding map layer's visibility
 function handleCheckboxClick(cb, layerID) {
   map.setLayoutProperty(layerID, 'visibility', (cb.checked) ? 'visible' : 'none')
+
+  // if this layer is being deselected and there's an active popup for a
+  // feature within this layer, remove the popup
+  if (mapState.activePopup && !cb.checked && mapState.activePopup.layerId === layerID) {
+    mapState.activePopup.remove()
+    mapState.activePopup = null
+  }
 }

@@ -5,6 +5,7 @@ function handlePathClick(e) {
 function handlePointClick(e) {
   if (mapState.activePopup) {
     mapState.activePopup.remove()
+    mapState.activePopup = null
   }
 
   var feature = e.features[0]
@@ -36,6 +37,7 @@ function handlePointClick(e) {
     .setHTML(html)
     .addTo(map)
 
+  popup.layerId = feature.layer.id
   mapState.activePopup = popup
 
   // reposition map
