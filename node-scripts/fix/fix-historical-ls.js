@@ -7,12 +7,13 @@ module.exports.run = function() {
     "type": "FeatureCollection",
     "features": data.features.map((d, i) => {
       var description = JSON.stringify(d.properties.description)
+      var formattedDescription = description.replace(/\r?\\n/g, "").trim()
 
       return {
         "type": "Feature",
         "properties": {
           "name": d.properties.Name,
-          "description": (description) ? description : null
+          "description": (formattedDescription) ? formattedDescription : null
         },
         "geometry": {
           "type": "Point",

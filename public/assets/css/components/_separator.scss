@@ -3,4 +3,12 @@
   height: 1px;
   background-color: $light-black;
   margin: 8px 0px 8px 0px;
+
+  &.light {
+    background-color: $light-grey;
+  }
+
+  &.spacious {
+    margin: 24px 0px 24px 0px;
+  }
 }
