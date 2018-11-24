@@ -42,7 +42,6 @@ const popupFor = {
   `,
 
   // great lakes stories
-  // boat access points
   'wcg-stories.json': (properties) => `
     <div class="title-wrap">
       <p>
@@ -57,6 +56,18 @@ const popupFor = {
           Read more.
         </p>
       </a>
+    </div>
+  `,
+
+  // historical sites along lake superior
+  'wcg-historic-ls.json': (properties) => `
+    <div class="title-wrap">
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
     </div>
   `,
 }

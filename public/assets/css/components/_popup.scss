@@ -32,6 +32,8 @@ $close-button-width: 30px;
       background-color: $white;
       padding: 8px 10px 8px 10px;
       color: $black;
+      max-height: 225px;
+      overflow: scroll;
 
       .separator {
         background-color: $light-grey;

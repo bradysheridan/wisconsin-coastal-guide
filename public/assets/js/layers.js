@@ -58,7 +58,7 @@ const LAYERS = {
   "historicSitesLakeSuperior": {
     "text": "Historic Sites on Lake Superior",
     "initiallyChecked": false,
-    "filename": "wcg-historic-ls.geojson",
+    "filename": "wcg-historic-ls.json",
     "fill": "#cc1bd5",
     "geographyType": "points"
   },
