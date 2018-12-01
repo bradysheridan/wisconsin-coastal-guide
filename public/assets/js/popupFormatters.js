@@ -97,4 +97,32 @@ const popupFor = {
       <p>${properties.description}</p>
     </div>
   `,
+
+  // marinas
+  'wcg-marinas.json': (properties) => {
+    console.log(properties)
+    properties.address = JSON.parse(properties.address)
+    properties.link = JSON.parse(properties.link)
+    return`
+      <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+        <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+          Marina
+        </p>
+        <p>
+          ${properties.name}
+        </p>
+      </div>
+      <div class="body-wrap">
+        <p>${properties.description}</p>
+        <div class="separator"></div>
+        <p>${properties.address.street}</p>
+        <p>${properties.address.city}, WI ${properties.address.zip}</p>
+        ${(properties.link.text && properties.link.text.indexOf('.') > 0)
+            ? `<p><a href="http://${properties.link.text}" target="_blank" style="font-size: inherit;">${properties.link.text}</a></p>`
+            : ''
+        }
+        <p>${properties.phone}</p>
+      </div>
+    `
+  },
 }
