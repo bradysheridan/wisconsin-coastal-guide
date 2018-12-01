@@ -79,6 +79,7 @@ map.on('load', function() {
   PATH_LAYER_KEYS.forEach((k) => {
     let layer = LAYERS[k]
     if (!layer.filename) return
+    layer.key = k
 
     // add layer
     map.addLayer(layerOf.paths(layer), firstSymbolID)
@@ -95,6 +96,7 @@ map.on('load', function() {
   POINT_LAYER_KEYS.forEach((k) => {
     let layer = LAYERS[k]
     if (!layer.filename) return
+    layer.key = k
 
     // add layer
     map.addLayer(layerOf.points(layer), firstSymbolID)

@@ -25,8 +25,10 @@ function renderCheckboxes() {
 
       if ("" === d.filename) return
 
+      let id = d.filename.split('.')[0]
+
       return `
-        <label class="checkbox-wrap">
+        <label class="checkbox-wrap" id="${id}">
           ${d.text}
           <input type="checkbox" ${(d.initiallyChecked) ? 'checked' : ''} onclick='handleCheckboxClick(this, "${d.filename}")' maplayerid="${d.filename}">
           <span class="checkmark"></span>

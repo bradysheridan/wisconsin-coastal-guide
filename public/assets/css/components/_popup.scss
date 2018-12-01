@@ -24,7 +24,7 @@ $close-button-width: 30px;
     .title-wrap {
       background-color: $black;
       padding: 8px ($close-button-width + 10px) 8px 10px;
-      border-bottom: 1px solid $light-black;
+      border-left: 8px solid; /* color is provided in public/assets/js/popupFormatters.js */
       color: $white;
     }
 

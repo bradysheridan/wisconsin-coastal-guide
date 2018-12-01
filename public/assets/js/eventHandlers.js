@@ -3,6 +3,7 @@ function handlePathClick(e) {
 }
 
 function handlePointClick(e) {
+  // if there's a popup open, close it
   if (mapState.activePopup) {
     mapState.activePopup.remove()
     mapState.activePopup = null
@@ -10,7 +11,8 @@ function handlePointClick(e) {
 
   var feature = e.features[0]
   var coordinates = feature.geometry.coordinates.slice()
-  var html = popupFor[feature.layer.id](feature.properties)
+  var props = Object.assign({}, feature.properties, { accentColor: feature.layer.paint['circle-color'] })
+  var html = popupFor[feature.layer.id](props)
 
   // ensure that if the map is zoomed out such that multiple copies of the
   // feature are visible, the popup appears over the copy being pointed to
@@ -37,6 +39,7 @@ function handlePointClick(e) {
     .setHTML(html)
     .addTo(map)
 
+  // update map state
   popup.layerId = feature.layer.id
   mapState.activePopup = popup
 

@@ -4,6 +4,8 @@ $check-width: 5px;
 $check-height: 10px;
 $transition: 200ms;
 
+$accent-color: red;
+
 .checklist {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +35,22 @@ $transition: 200ms;
     -ms-user-select: none;
     user-select: none;
 
+    &#wcg-beaches { border-color: #5B85AA !important; }
+    &#wcg-boat-access { border-color: #36F1CD !important; }
+    &#wcg-stories { border-color: #EF798A !important; }
+    &#wcg-historic-ls { border-color: #FFC857 !important; }
+    &#wcg-lighthouses { border-color: #63B0CD !important; }
+    &#wcg-marinas { border-color: #E9D2F4 !important; }
+    &#wcg-maritime-geocaches { border-color: #da3737 !important; }
+    &#wcg-nature-centers { border-color: #F4F1DE !important; }
+    &#wcg-parks { border-color: #3B413C !important; }
+    &#wcg-shipwrecks { border-color: #9BC53D !important; }
+    &#wcg-sna { border-color: #197BBD !important; }
+    &#wcg-glct-route-lake-michigan { border-color: #39A0ED !important; }
+    &#wcg-glct-route-lake-superior { border-color: #EDAFB8 !important; }
+    &#wcg-rustic-roads { border-color: #7BDFF2 !important; }
+    &#wcg-byways { border-color: #C08497 !important; }
+
     width: 100%;
     @media screen and (max-width: $bp-mobile) {
       width: 43%;
@@ -55,13 +73,15 @@ $transition: 200ms;
   // hovered
   .checkbox-wrap:hover input ~ .checkmark {
     background-color: $light-black;
-    border: 1px solid $mint-green;
+    border: 1px solid;
+    border-color: inherit;
     transition: $transition;
   }
 
   // checked
   .checkbox-wrap input:checked ~ .checkmark {
-    border: 1px solid $green;
+    border: 1px solid;
+    border-color: inherit;
     transition: $transition;
   }
 
@@ -86,7 +106,8 @@ $transition: 200ms;
     height: $check-height;
     left: $checkmark-size / 2 - $check-width + 1.8;
     top: $checkmark-size / 2 - $check-height + 2.3;
-    border: solid $mint-green;
+    border: solid;
+    border-color: inherit;
     border-width: 0 1.5px 1.5px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);

@@ -3,127 +3,127 @@ const LAYERS = {
     "text": "360 Degree Panoramas",
     "initiallyChecked": false,
     "filename": "",
-    "fill": "#1bd5ca",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#F46036"
   },
   "beaches": {
     "text": "Beaches",
     "initiallyChecked": true,
     "filename": "wcg-beaches.json",
-    "fill": "#1bb3d5",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#5B85AA"
   },
   "bikeRoutes": {
     "text": "Bike Routes",
     "initiallyChecked": false,
     "filename": "",
-    "fill": "#1b92d5",
-    "geographyType": "paths"
+    "geographyType": "paths",
+    "fill": "#372248"
   },
   "boatAccess": {
     "text": "Boat Access Points",
     "initiallyChecked": false,
     "filename": "wcg-boat-access.json",
-    "fill": "#1b60d5",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#36F1CD"
   },
   "lakeMichiganCircleTour": {
     "text": "Lake Michigan Circle Tour",
     "initiallyChecked": false,
     "filename": "wcg-glct-route-lake-michigan.geojson",
-    "fill": "#1b28d5",
-    "geographyType": "paths"
+    "geographyType": "paths",
+    "fill": "#39A0ED"
   },
   "lakeSuperiorCircleTour": {
     "text": "Lake Superior Circle Tour",
     "initiallyChecked": false,
     "filename": "wcg-glct-route-lake-superior.geojson",
-    "fill": "#511bd5",
-    "geographyType": "paths"
+    "geographyType": "paths",
+    "fill": "#EDAFB8"
   },
   "greatLakesStories": {
     "text": "Great Lakes Stories",
     "initiallyChecked": false,
     "filename": "wcg-stories.json",
-    "fill": "#7d1bd5",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#EF798A"
   },
   "harborTowns": {
     "text": "Harbor Towns",
     "initiallyChecked": false,
     "filename": "",
-    "fill": "#a41bd5",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#FF0022"
   },
   "historicSitesLakeSuperior": {
     "text": "Historic Sites on Lake Superior",
     "initiallyChecked": false,
     "filename": "wcg-historic-ls.json",
-    "fill": "#cc1bd5",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#FFC857"
   },
   "lighthouses": {
     "text": "Lighthouses",
     "initiallyChecked": false,
     "filename": "wcg-lighthouses.geojson",
-    "fill": "#d51bb2",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#63B0CD"
   },
   "marinas": {
     "text": "Marinas",
     "initiallyChecked": false,
     "filename": "wcg-marinas.geojson",
-    "fill": "#d51b8a",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#E9D2F4"
   },
   "maritimeHistoryGeocaches": {
     "text": "Maritime History Geocaches",
     "initiallyChecked": false,
     "filename": "wcg-maritime-geocaches.geojson",
-    "fill": "#d51b63",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#da3737"
   },
   "natureCenters": {
     "text": "Nature Centers",
     "initiallyChecked": false,
     "filename": "wcg-nature-centers.geojson",
-    "fill": "#d51b3c",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#F4F1DE"
   },
   "parks": {
     "text": "Parks",
     "initiallyChecked": false,
     "filename": "wcg-parks.geojson",
-    "fill": "#e85151",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#3B413C"
   },
   "rusticRoads": {
     "text": "Rustic Roads",
     "initiallyChecked": false,
     "filename": "wcg-rustic-roads.geojson",
-    "fill": "#e89551",
-    "geographyType": "paths"
+    "geographyType": "paths",
+    "fill": "#7BDFF2"
   },
   "scenicByways": {
     "text": "Scenic Byways",
     "initiallyChecked": false,
     "filename": "wcg-byways.geojson",
-    "fill": "#e8e751",
-    "geographyType": "paths"
+    "geographyType": "paths",
+    "fill": "#C08497"
   },
   "shipwrecks": {
     "text": "Shipwrecks",
     "initiallyChecked": false,
     "filename": "wcg-shipwrecks.geojson",
-    "fill": "#7de851",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#9BC53D"
   },
   "stateNaturalAreas": {
     "text": "State Natural Areas",
     "initiallyChecked": false,
     "filename": "wcg-sna.geojson",
-    "fill": "#51e869",
-    "geographyType": "points"
+    "geographyType": "points",
+    "fill": "#197BBD"
   }
 }
 
