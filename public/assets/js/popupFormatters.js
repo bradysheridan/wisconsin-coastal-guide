@@ -164,5 +164,32 @@ const popupFor = {
         </p>
       </a>
     </div>
-  `
+  `,
+
+  // parks
+  'wcg-parks.json': (properties) => {
+    properties.links = JSON.parse(properties.links)
+    return `
+      <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+        <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+          Park
+        </p>
+        <p>
+          ${properties.name}
+        </p>
+      </div>
+      <div class="body-wrap">
+        <p>Managed by: ${properties.subtitle}</p>
+        ${properties.links && properties.links.length > 0
+          ? `<div class="separator"></div>`
+          : ``}
+        ${properties.links.map((l) => `
+            <a href="${l.href}" target="_blank">
+              <p>
+                ${l.text}
+              </p>
+            </a>`
+          )}
+      </div>`
+  }
 }
