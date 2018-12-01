@@ -11,7 +11,8 @@ module.exports.run = function() {
         "properties": {
           "name": d.properties.Name,
           "description": `${d.properties.Paragraph1_Text} ${d.properties.Paragraph2_Text}.`,
-          "link": d.properties.Link_URL.replace('\\', '')
+          "link": d.properties.Link_URL.replace('\\', ''),
+          "code": d.properties.Subtitle
         },
         "geometry": {
           "type": "Point",

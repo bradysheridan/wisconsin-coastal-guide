@@ -131,7 +131,7 @@ const popupFor = {
         Maritime History Geocache
       </p>
       <p>
-        ${properties.name}
+        ${properties.name} (${properties.code})
       </p>
     </div>
     <div class="body-wrap">
