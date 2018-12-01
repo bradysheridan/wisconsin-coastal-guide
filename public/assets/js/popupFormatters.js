@@ -3,6 +3,9 @@ const popupFor = {
   // beaches
   'wcg-beaches.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Beach
+      </p>
       <p>
         ${
           (properties.name.includes("#"))
@@ -32,6 +35,9 @@ const popupFor = {
   // boat access points
   'wcg-boat-access.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Boat Access Point
+      </p>
       <p>
         ${properties.name}
       </p>
@@ -44,6 +50,9 @@ const popupFor = {
   // great lakes stories
   'wcg-stories.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Great Lakes Story
+      </p>
       <p>
         ${properties.name}
       </p>
@@ -62,6 +71,9 @@ const popupFor = {
   // historical sites along lake superior
   'wcg-historic-ls.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Historical Site on Lake Superior
+      </p>
       <p>
         ${properties.name}
       </p>
