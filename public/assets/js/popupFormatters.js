@@ -1,5 +1,4 @@
 const popupFor = {
-
   // beaches
   'wcg-beaches.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
@@ -26,7 +25,7 @@ const popupFor = {
       <div class="separator"></div>
       <a href="http://www.wibeaches.us/" target="_blank">
         <p>
-          http://www.wibeaches.us/
+          www.wibeaches.us
         </p>
       </a>
     </div>
@@ -100,10 +99,9 @@ const popupFor = {
 
   // marinas
   'wcg-marinas.json': (properties) => {
-    console.log(properties)
     properties.address = JSON.parse(properties.address)
     properties.link = JSON.parse(properties.link)
-    return`
+    return `
       <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
         <p style="font-size: 1.4rem; color: ${properties.accentColor}">
           Marina
@@ -125,4 +123,25 @@ const popupFor = {
       </div>
     `
   },
+
+  // maritime geocaches
+  'wcg-maritime-geocaches.json': (properties) => `
+    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Maritime History Geocache
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
+      <div class="separator"></div>
+      <a href="${properties.link}" target="_blank">
+        <p>
+          Find this geocache
+        </p>
+      </a>
+    </div>
+  `
 }

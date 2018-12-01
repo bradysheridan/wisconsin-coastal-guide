@@ -8,6 +8,7 @@ module.exports.fix = function(dataset) {
     case "stories": filepath = './fix-stories.js'; break;
     case "lighthouses": filepath = './fix-lighthouses.js'; break;
     case "marinas": filepath = './fix-marinas.js'; break;
+    case "maritimeGeocaches": filepath = './fix-maritime-geocaches.js'; break;
     default: console.log("No 'functionName' parameter was passed, which dataset do you want to fix?"); return;
   }
 
