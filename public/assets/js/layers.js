@@ -88,7 +88,7 @@ const LAYERS = {
     "initiallyChecked": false,
     "filename": "wcg-nature-centers.json",
     "geographyType": "points",
-    "fill": "#F4F1DE"
+    "fill": "#3c9023"
   },
   "parks": {
     "text": "Parks",

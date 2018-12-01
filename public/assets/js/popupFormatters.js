@@ -143,5 +143,26 @@ const popupFor = {
         </p>
       </a>
     </div>
+  `,
+
+  // nature centers
+  'wcg-nature-centers.json': (properties) => `
+    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Nature Center
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
+      <div class="separator"></div>
+      <a href="${properties.link}" target="_blank">
+        <p>
+          More information
+        </p>
+      </a>
+    </div>
   `
 }
