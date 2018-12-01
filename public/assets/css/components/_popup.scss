@@ -12,6 +12,10 @@ $close-button-width: 30px;
     &:hover {
       opacity: 0.8;
     }
+
+    &:focus {
+      outline: 0;
+    }
   }
 
   .mapboxgl-popup-content {
@@ -42,6 +46,10 @@ $close-button-width: 30px;
       a {
         text-align: center;
         p { font-size: 1.0rem; }
+      }
+
+      i {
+        font-size: inherit;
       }
     }
   }

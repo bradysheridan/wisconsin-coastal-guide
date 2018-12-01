@@ -82,4 +82,19 @@ const popupFor = {
       <p>${properties.description}</p>
     </div>
   `,
+
+  // lighthouses
+  'wcg-lighthouses.json': (properties) => `
+    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Lighthouse
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
+    </div>
+  `,
 }
