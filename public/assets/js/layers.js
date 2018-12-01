@@ -95,7 +95,7 @@ const LAYERS = {
     "initiallyChecked": false,
     "filename": "wcg-parks.json",
     "geographyType": "points",
-    "fill": "#3B413C"
+    "fill": "#7b32a7"
   },
   "rusticRoads": {
     "text": "Rustic Roads",
