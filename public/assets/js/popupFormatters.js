@@ -197,6 +197,7 @@ const popupFor = {
   // shipwrecks
   'wcg-shipwrecks.json': (properties) => {
     properties.ships = JSON.parse(properties.ships)
+    properties.readMore = properties.readMore.replace(new RegExp("<a", "g"), "<a target='_blank'")
     return `
       <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
         <p style="font-size: 1.4rem; color: ${properties.accentColor}">
