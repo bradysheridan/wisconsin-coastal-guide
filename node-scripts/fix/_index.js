@@ -11,6 +11,7 @@ module.exports.fix = function(dataset) {
     case "natureCenters": filepath = './fix-nature-centers.js'; break;
     case "parks": filepath = './fix-parks.js'; break;
     case "shipwrecks": filepath = './fix-shipwrecks.js'; break;
+    case "stateNaturalAreas": filepath = './fix-sna.js'; break;
     case "stories": filepath = './fix-stories.js'; break;
     default: console.log("No 'functionName' parameter was passed, which dataset do you want to fix?"); return;
   }

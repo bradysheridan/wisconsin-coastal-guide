@@ -223,5 +223,27 @@ const popupFor = {
         </p>
       </div>
     `
+  },
+
+  // state natural areas
+  'wcg-sna.json': (properties) => {
+    properties.links = JSON.parse(properties.links)
+    return `
+      <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+        <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+          State Natural Area
+        </p>
+        <p>
+          ${properties.name}
+        </p>
+      </div>
+      <div class="body-wrap">
+        <p>${properties.description}</p>
+        <div class="separator"></div>
+        <p>
+          Check out the detailed <a target='_blank' href='${properties.links.description}'>description</a> and <a target='_blank' href='${properties.links.map}'>map</a> of ${properties.name} Natural Area from the Wisconsin DNR.
+        </p>
+      </div>
+    `
   }
 }
