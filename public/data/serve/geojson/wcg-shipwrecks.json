@@ -1,0 +1,492 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"name": "Appomattox",
+				"description": "Innovative construction techniques produced the largest wooden vessel ever built on the Great Lakes, perhaps in the world.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/31'>Appomattox</a> at <a href='http://www.wisconsinshipwrecks.org'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Wooden Bulk Steamer",
+					"type": "Schooner-Barge",
+					"launched": "1896",
+					"wrecked": "1905"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.86620833333333,
+					43.09363611111112
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Bullhead Point Wrecks",
+				"description": "Three hard-working vessels end their days as decrepit dock extensions.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/181'>Empire State</a>, the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/287'>Ida Corning</a>, and the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/471'>Oak Leaf</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+						"name": "Empire State",
+						"type": "Steamer",
+						"launched": "1862",
+						"wrecked": "1916"
+					},
+					{
+						"name": "Ida Corning",
+						"type": "Schooner",
+						"launched": "1866",
+						"wrecked": "1928"
+					},
+					{
+						"name": "Oak Leaf",
+						"type": "Schooner-Barge",
+						"launched": "1881",
+						"wrecked": "1920s"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.3953284345801,
+					44.84163281608225
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Carrington",
+				"description": "Three relatively intact sections illuminate pre-Civil War Great Lakes ship construction.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/87'>Carrington</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Carrington",
+					"type": "Schooner",
+					"launched": "1853",
+					"wrecked": "1870"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.3221667,
+					45.093
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Christina Nilsson",
+				"description": "Three relatively intact sections illuminate pre-Civil War Great Lakes ship construction.",
+				"readMore": "A 'splendid craft' succumbs to a blinding snowstorm and gale-force winds. Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/99'>Christina Nilsson</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Christina Nilsson",
+					"type": "Schooner",
+					"launched": "1871",
+					"wrecked": "1884"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.09802367332075,
+					45.05444401851965
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Daniel Lyons",
+				"description": "An autumn night, a confusing light, and a ship almost sliced in two.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/129'>Daniel Lyons</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Daniel Lyons",
+					"type": "Schooner",
+					"launched": "1873",
+					"wrecked": "1878"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.31552222222221,
+					44.67336111111111
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fleetwing",
+				"description": "Another classic Great Lakes schooner falls victim to Death's Door.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/201'>Fleetwing</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Fleetwing",
+					"type": "Schooner",
+					"launched": "1867",
+					"wrecked": "1888"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.04294889438107,
+					45.28481879517472
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Frank O'Connor",
+				"description": "One of the largest wooden ships ever built.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/218'>Frank O'Connor</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Frank O'Connor",
+					"type": "Steamer",
+					"launched": "1892",
+					"wrecked": "1919"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.01227634885035,
+					45.11449302428954
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hetty Taylor",
+				"description": "A well-preserved example of a small coastal schooner.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/274'>Hetty Taylor</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Hetty Taylor",
+					"type": "Schooner",
+					"launched": "1874",
+					"wrecked": "1880"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.65491779064682,
+					43.677774692994
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kate Kelly",
+				"description": "A vicious squall capsizes a schooner while farmers look on helplessly from shore.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/339'>Kate Kelly</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Kate Kelly",
+					"type": "Schooner",
+					"launched": "1867",
+					"wrecked": "1895"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.72515,
+					42.7780667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Louisiana",
+				"description": "A second-generation bulk carrier, battered and burned in the great gale of 1913.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/384'>Louisiana</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Kate Kelly",
+					"type": "Steamer",
+					"launched": "1887",
+					"wrecked": "1913"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-86.9226667,
+					45.3996667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Meridian",
+				"description": "A formidable ice storm claims the work of a redoubtable shipbuilding family.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/433'>Meridian</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Meridian",
+					"type": "Schooner",
+					"launched": "1848",
+					"wrecked": "1873"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.1412167,
+					45.2216667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Niagara",
+				"description": "A premier 'palace steamer' lost to a devastating fire.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/455'>Niagara</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Niagara",
+					"type": "Steamer",
+					"launched": "1846",
+					"wrecked": "1856"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.7748333,
+					43.4885
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Pilot Island Wrecks",
+				"description": "The infamous Death's Door passage piles three schooners into a jumbled heap of timbers.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/2'>A.P. Nichols</a>, the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/211'>Forest</a>, and the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/300'>J.E. Gilmore</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+						"name": "A.P. Nichols",
+						"type": "Schooner",
+						"launched": "1861",
+						"wrecked": "1891"
+					},
+					{
+						"name": "Forest",
+						"type": "Schooner",
+						"launched": "1857",
+						"wrecked": "1892"
+					},
+					{
+						"name": "J.E. Gilmore",
+						"type": "Schooner",
+						"launched": "1867",
+						"wrecked": "1892"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-86.918667,
+					45.285
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rosinco",
+				"description": "Lake Michigan's first diesel luxury yacht still evokes the flamboyance of the Roaring Twenties.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/539'>Rosinco</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Rosinco",
+					"type": "Diesel Yacht",
+					"launched": "1916",
+					"wrecked": "1928"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.6275,
+					42.6252778
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tennie and Laura",
+				"description": "A punishing storm puts a two-man crew to the ultimate test.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/602'>Tennie and Laura</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>",
+				"ships": [{
+					"name": "Tennie and Laura",
+					"type": "Scow Schooner",
+					"launched": "1876",
+					"wrecked": "1903"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.7075,
+					43.26505555555556
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Wisconsin",
+				"description": "The young Henry Ford may have helped build this innovative, early steel-hulled steamer, but the only cars remaining in her hold are a Chevrolet, Hudson, and an Essex.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/650'>Wisconsin</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Wisconsin",
+					"type": "Steamer",
+					"launched": "1881",
+					"wrecked": "1929"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-87.7075,
+					42.53
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fedora",
+				"description": "A kerosene lamp and an unfortunate design sealed the fate of this wooden steamer.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/199'>Fedora</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Fedora",
+					"type": "Steamer",
+					"launched": "1889",
+					"wrecked": "1901"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.7784833,
+					46.8598
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lucerne",
+				"description": "A staunch vessel lost to a vicious nor'easter.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/386'>Lucerne</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Lucerne",
+					"type": "Schooner",
+					"launched": "1873",
+					"wrecked": "1886"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.76725,
+					46.72315
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Noquebay",
+				"description": "A stealthy blaze broke out in the bow as the crew lunched unaware.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/458'>Noquebay</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Noquebay",
+					"type": "Schooner-Barge",
+					"launched": "1872",
+					"wrecked": "1905"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.5452833,
+					46.9261333
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ottawa",
+				"description": "The Ottawa fought valiantly for a week to save a burning steamer, only to be consumed herself by a ravaging fire.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/explore_ottawa_intro.cfm'>Ottawa</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Ottawa",
+					"type": "Tug",
+					"launched": "1881",
+					"wrecked": "1909"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.76356669999998,
+					46.8829667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Pretoria",
+				"description": "A colossal ship rendered helpless by a ferocious storm.",
+				"readMore": "Read more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/509'>Pretoria</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Pretoria",
+					"type": "Schooner-Barge",
+					"launched": "1900",
+					"wrecked": "1905"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.3943333,
+					47.0893333
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sevona",
+				"description": "A Lake Superior nor'easter forced this steel steamer hard aground, ripping a gaping hole in her bow.",
+				"readMore": "RRead more about the <a href='http://www.wisconsinshipwrecks.org/Vessel/Details/565'>Sevona</a> at <a href='http://www.wisconsinshipwrecks.org/'>WisconsinShipwrecks.org</a>.",
+				"ships": [{
+					"name": "Sevona",
+					"type": "Steamer",
+					"launched": "1890",
+					"wrecked": "1905"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-90.90555555555557,
+					47.01338888888889
+				]
+			}
+		}
+	]
+}

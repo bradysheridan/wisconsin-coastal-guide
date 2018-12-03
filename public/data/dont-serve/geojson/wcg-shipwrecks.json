@@ -1,28 +1,561 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Appomattox", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Appomattox<\/font><\/h2>\n        <b>Wooden Bulk Steamer<\/b><br>\n        <i>Launched: 1896<br>Wrecked: 1905<\/i>\n        <p>Innovative construction techniques produced the largest wooden vessel ever built on the Great Lakes, perhaps in the world.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/31\">Appomattox<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.866208333333333, 43.093636111111117, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "The Bullhead Point Wrecks", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">The Bullhead Point Wrecks<\/font><\/h2>\n        <b><u>Empire State<\/u><\/b><br>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1862<br>Wrecked: 1916<\/i><br><br>\n        <b><u>Ida Corning<\/u><\/b><br>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1866<br>Wrecked: 1928<\/i><br><br>\n        <b><u>Oak Leaf<\/u><\/b><br>\n        <b>Schooner-Barge<\/b><br>\n        <i>Launched: 1881<br>Wrecked: 1920's<\/i>\n        <p>Three hard-working vessels end their days as decrepit dock extensions.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/181\">Empire State<\/a>, the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/287\">Ida Corning<\/a>, and the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/471\">Oak Leaf<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.395328434580094, 44.841632816082253, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Carrington", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Carrington<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1853<br>Wrecked: 1870<\/i>\n        <p>Three relatively intact sections illuminate pre-Civil War Great Lakes ship construction.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/87\">Carrington<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.3221667, 45.093, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Christina Nilsson", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Christina Nilsson<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1871<br>Wrecked: 1884<\/i>\n        <p>A \"splendid craft\" succumbs to a blinding snowstorm and gale-force winds.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/99\">Christina Nilsson<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.098023673320753, 45.054444018519654, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Daniel Lyons", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Daniel Lyons<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1873<br>Wrecked: 1878<\/i>\n        <p>An autumn night, a confusing light, and a ship almost sliced in two.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/129\">Daniel Lyons<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.315522222222214, 44.673361111111113, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Fleetwing", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Fleetwing<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1867<br>Wrecked: 1888<\/i>\n        <p>Another classic Great Lakes schooner falls victim to Death's Door.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/201\">Fleetwing<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.04294889438107, 45.284818795174722, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Frank O'Connor", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Frank O'Connor<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1892<br>Wrecked: 1919<\/i>\n        <p>One of the largest wooden ships ever built.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/218\">Frank O'Connor<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.012276348850349, 45.114493024289537, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Hetty Taylor", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Hetty Taylor<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1874<br>Wrecked: 1880<\/i>\n        <p>A well-preserved example of a small coastal schooner.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/274\">Hetty Taylor<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.65491779064682, 43.677774692993999, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Kate Kelly", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Kate Kelly<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1867<br>Wrecked: 1895<\/i>\n        <p>A vicious squall capsizes a schooner while farmers look on helplessly from shore.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/339\">Kate Kelly<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.72515, 42.7780667, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Louisiana", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Louisiana<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1887<br>Wrecked: 1913<\/i>\n        <p>A second-generation bulk carrier, battered and burned in the great gale of 1913.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/384\">Louisiana<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -86.9226667, 45.3996667, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Meridian", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Meridian<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1848<br>Wrecked: 1873<\/i>\n        <p>A formidable ice storm claims the work of a redoubtable shipbuilding family.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/433\">Meridian<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.1412167, 45.2216667, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Niagara", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Niagara<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1846<br>Wrecked: 1856<\/i>\n        <p>A premier 'palace steamer' lost to a devastating fire.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/455\">Niagara<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.7748333, 43.4885, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "The Pilot Island Wrecks", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">The Pilot Island Wrecks<\/font><\/h2>\n        <b><u>A.P. Nichols<\/u><\/b><br>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1861<br>Wrecked: 1891<\/i><br><br>\n        <b><u>Forest<\/u><\/b><br>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1857<br>Wrecked: 1892<\/i><br><br>\n        <b><u>J.E. Gilmore<\/u><\/b><br>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1867<br>Wrecked: 1892<\/i>\n        <p>The infamous Death's Door passage piles three schooners into a jumbled heap of timbers.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/2\">A.P. Nichols<\/a>, the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/211\">Forest<\/a>, and the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/300\">J.E. Gilmore<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -86.918667, 45.285, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Rosinco", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Rosinco<\/font><\/h2>\n        <b>Diesel Yacht<\/b><br>\n        <i>Launched: 1916<br>Wrecked: 1928<\/i>\n        <p>Lake Michigan's first diesel luxury yacht still evokes the flamboyance of the Roaring Twenties.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/539\">Rosinco<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.6275, 42.6252778, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Tennie and Laura", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Tennie and Laura<\/font><\/h2>\n        <b>Scow Schooner<\/b><br>\n        <i>Launched: 1876<br>Wrecked: 1903<\/i>\n        <p>A punishing storm puts a two-man crew to the ultimate test.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/602\">Tennie and Laura<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.7075, 43.265055555555563, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Wisconsin", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Wisconsin<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1881<br>Wrecked: 1929<\/i>\n        <p>The young Henry Ford may have helped build this innovative, early steel-hulled steamer, but the only cars remaining in her hold are a Chevrolet, Hudson, and an Essex.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/650\">Wisconsin<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -87.7075, 42.53, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Fedora", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Fedora<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1889<br>Wrecked: 1901<\/i>\n        <p>A kerosene lamp and an unfortunate design sealed the fate of this wooden steamer.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/199\">Fedora<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.7784833, 46.8598, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Lucerne", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Lucerne<\/font><\/h2>\n        <b>Schooner<\/b><br>\n        <i>Launched: 1873<br>Wrecked: 1886<\/i>\n        <p>A staunch vessel lost to a vicious nor'easter.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/386\">Lucerne<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.76725, 46.72315, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Noquebay", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Noquebay<\/font><\/h2>\n        <b>Schooner-Barge<\/b><br>\n        <i>Launched: 1872<br>Wrecked: 1905<\/i>\n        <p>A stealthy blaze broke out in the bow as the crew lunched unaware.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/458\">Noquebay<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.5452833, 46.9261333, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Ottawa", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Ottawa<\/font><\/h2>\n        <b>Tug<\/b><br>\n        <i>Launched: 1881<br>Wrecked: 1909<\/i>\n        <p>The Ottawa fought valiantly for a week to save a burning steamer, only to be consumed herself by a ravaging fire.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/explore_ottawa_intro.cfm\">Ottawa<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.763566699999984, 46.8829667, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Pretoria", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\" \/><\/div><h2><font color=\"#000099\">Pretoria<\/font><\/h2>\n        <b>Schooner-Barge<\/b><br>\n        <i>Launched: 1900<br>Wrecked: 1905<\/i>\n        <p>A colossal ship rendered helpless by a ferocious storm.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/509\">Pretoria<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.3943333, 47.0893333, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Sevona", "description": "<div id=\"MarkerBanner\"><img src=\"http:\/\/www.aqua.wisc.edu\/glct\/maps\/images\/WCG_banner2.jpg\" alt=\"picture\"\/><\/div><h2><font color=\"#000099\">Sevona<\/font><\/h2>\n        <b>Steamer<\/b><br>\n        <i>Launched: 1890<br>Wrecked: 1905<\/i>\n        <p>A Lake Superior nor'easter forced this steel steamer hard aground, ripping a gaping hole in her bow.<\/p>\n      <p>\n        Read more about the <a href=\"http:\/\/www.wisconsinshipwrecks.org\/Vessel\/Details\/565\">Sevona<\/a> at <a href=\"http:\/\/www.wisconsinshipwrecks.org\/\">WisconsinShipwrecks.org<\/a>\n      <\/p>\n <div align=\"center\"><hr>\n      <a href=\"http:\/\/www.wisconsincoastalguide.org\/\">www.wisconsincoastalguide.org<\/a>\n<\/div>", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "snippet": "" }, "geometry": { "type": "Point", "coordinates": [ -90.905555555555566, 47.01338888888889, 0.0 ] } }
-]
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Appomattox",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Appomattox</font></h2>\n        <b>Wooden Bulk Steamer</b><br>\n        <i>Launched: 1896<br>Wrecked: 1905</i>\n        <p>Innovative construction techniques produced the largest wooden vessel ever built on the Great Lakes, perhaps in the world.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/31\">Appomattox</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.86620833333333,
+          43.09363611111112,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Bullhead Point Wrecks",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">The Bullhead Point Wrecks</font></h2>\n        <b><u>Empire State</u></b><br>\n        <b>Steamer</b><br>\n        <i>Launched: 1862<br>Wrecked: 1916</i><br><br>\n        <b><u>Ida Corning</u></b><br>\n        <b>Schooner</b><br>\n        <i>Launched: 1866<br>Wrecked: 1928</i><br><br>\n        <b><u>Oak Leaf</u></b><br>\n        <b>Schooner-Barge</b><br>\n        <i>Launched: 1881<br>Wrecked: 1920's</i>\n        <p>Three hard-working vessels end their days as decrepit dock extensions.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/181\">Empire State</a>, the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/287\">Ida Corning</a>, and the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/471\">Oak Leaf</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3953284345801,
+          44.84163281608225,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Carrington",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Carrington</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1853<br>Wrecked: 1870</i>\n        <p>Three relatively intact sections illuminate pre-Civil War Great Lakes ship construction.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/87\">Carrington</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3221667,
+          45.093,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Christina Nilsson",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Christina Nilsson</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1871<br>Wrecked: 1884</i>\n        <p>A \"splendid craft\" succumbs to a blinding snowstorm and gale-force winds.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/99\">Christina Nilsson</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.09802367332075,
+          45.05444401851965,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Daniel Lyons",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Daniel Lyons</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1873<br>Wrecked: 1878</i>\n        <p>An autumn night, a confusing light, and a ship almost sliced in two.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/129\">Daniel Lyons</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.31552222222221,
+          44.67336111111111,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fleetwing",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Fleetwing</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1867<br>Wrecked: 1888</i>\n        <p>Another classic Great Lakes schooner falls victim to Death's Door.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/201\">Fleetwing</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.04294889438107,
+          45.28481879517472,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Frank O'Connor",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Frank O'Connor</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1892<br>Wrecked: 1919</i>\n        <p>One of the largest wooden ships ever built.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/218\">Frank O'Connor</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.01227634885035,
+          45.11449302428954,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hetty Taylor",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Hetty Taylor</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1874<br>Wrecked: 1880</i>\n        <p>A well-preserved example of a small coastal schooner.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/274\">Hetty Taylor</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65491779064682,
+          43.677774692994,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kate Kelly",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Kate Kelly</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1867<br>Wrecked: 1895</i>\n        <p>A vicious squall capsizes a schooner while farmers look on helplessly from shore.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/339\">Kate Kelly</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72515,
+          42.7780667,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Louisiana",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Louisiana</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1887<br>Wrecked: 1913</i>\n        <p>A second-generation bulk carrier, battered and burned in the great gale of 1913.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/384\">Louisiana</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9226667,
+          45.3996667,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Meridian",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Meridian</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1848<br>Wrecked: 1873</i>\n        <p>A formidable ice storm claims the work of a redoubtable shipbuilding family.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/433\">Meridian</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1412167,
+          45.2216667,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Niagara",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Niagara</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1846<br>Wrecked: 1856</i>\n        <p>A premier 'palace steamer' lost to a devastating fire.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/455\">Niagara</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7748333,
+          43.4885,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Pilot Island Wrecks",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">The Pilot Island Wrecks</font></h2>\n        <b><u>A.P. Nichols</u></b><br>\n        <b>Schooner</b><br>\n        <i>Launched: 1861<br>Wrecked: 1891</i><br><br>\n        <b><u>Forest</u></b><br>\n        <b>Schooner</b><br>\n        <i>Launched: 1857<br>Wrecked: 1892</i><br><br>\n        <b><u>J.E. Gilmore</u></b><br>\n        <b>Schooner</b><br>\n        <i>Launched: 1867<br>Wrecked: 1892</i>\n        <p>The infamous Death's Door passage piles three schooners into a jumbled heap of timbers.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/2\">A.P. Nichols</a>, the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/211\">Forest</a>, and the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/300\">J.E. Gilmore</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.918667,
+          45.285,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rosinco",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Rosinco</font></h2>\n        <b>Diesel Yacht</b><br>\n        <i>Launched: 1916<br>Wrecked: 1928</i>\n        <p>Lake Michigan's first diesel luxury yacht still evokes the flamboyance of the Roaring Twenties.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/539\">Rosinco</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6275,
+          42.6252778,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tennie and Laura",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Tennie and Laura</font></h2>\n        <b>Scow Schooner</b><br>\n        <i>Launched: 1876<br>Wrecked: 1903</i>\n        <p>A punishing storm puts a two-man crew to the ultimate test.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/602\">Tennie and Laura</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7075,
+          43.26505555555556,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wisconsin",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Wisconsin</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1881<br>Wrecked: 1929</i>\n        <p>The young Henry Ford may have helped build this innovative, early steel-hulled steamer, but the only cars remaining in her hold are a Chevrolet, Hudson, and an Essex.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/650\">Wisconsin</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7075,
+          42.53,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fedora",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Fedora</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1889<br>Wrecked: 1901</i>\n        <p>A kerosene lamp and an unfortunate design sealed the fate of this wooden steamer.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/199\">Fedora</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7784833,
+          46.8598,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lucerne",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Lucerne</font></h2>\n        <b>Schooner</b><br>\n        <i>Launched: 1873<br>Wrecked: 1886</i>\n        <p>A staunch vessel lost to a vicious nor'easter.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/386\">Lucerne</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.76725,
+          46.72315,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Noquebay",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Noquebay</font></h2>\n        <b>Schooner-Barge</b><br>\n        <i>Launched: 1872<br>Wrecked: 1905</i>\n        <p>A stealthy blaze broke out in the bow as the crew lunched unaware.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/458\">Noquebay</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5452833,
+          46.9261333,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ottawa",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Ottawa</font></h2>\n        <b>Tug</b><br>\n        <i>Launched: 1881<br>Wrecked: 1909</i>\n        <p>The Ottawa fought valiantly for a week to save a burning steamer, only to be consumed herself by a ravaging fire.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/explore_ottawa_intro.cfm\">Ottawa</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.76356669999998,
+          46.8829667,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pretoria",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\" /></div><h2><font color=\"#000099\">Pretoria</font></h2>\n        <b>Schooner-Barge</b><br>\n        <i>Launched: 1900<br>Wrecked: 1905</i>\n        <p>A colossal ship rendered helpless by a ferocious storm.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/509\">Pretoria</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3943333,
+          47.0893333,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sevona",
+        "description": "<div id=\"MarkerBanner\"><img src=\"http://www.aqua.wisc.edu/glct/maps/images/WCG_banner2.jpg\" alt=\"picture\"/></div><h2><font color=\"#000099\">Sevona</font></h2>\n        <b>Steamer</b><br>\n        <i>Launched: 1890<br>Wrecked: 1905</i>\n        <p>A Lake Superior nor'easter forced this steel steamer hard aground, ripping a gaping hole in her bow.</p>\n      <p>\n        Read more about the <a href=\"http://www.wisconsinshipwrecks.org/Vessel/Details/565\">Sevona</a> at <a href=\"http://www.wisconsinshipwrecks.org/\">WisconsinShipwrecks.org</a>\n      </p>\n <div align=\"center\"><hr>\n      <a href=\"http://www.wisconsincoastalguide.org/\">www.wisconsincoastalguide.org</a>\n</div>",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null,
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.90555555555557,
+          47.01338888888889,
+          0
+        ]
+      }
+    }
+  ]
 }

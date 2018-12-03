@@ -190,6 +190,37 @@ const popupFor = {
               </p>
             </a>`
           )}
-      </div>`
+      </div>
+    `
+  },
+
+  // shipwrecks
+  'wcg-shipwrecks.json': (properties) => {
+    properties.ships = JSON.parse(properties.ships)
+    return `
+      <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+        <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+          Shipwreck
+        </p>
+        <p>
+          ${properties.name}
+        </p>
+      </div>
+      <div class="body-wrap">
+        <p>${properties.description}</p>
+        <br />
+        ${properties.ships.map((ship) => `
+          <p style="font-weight: 700; font-style: italic;">${ship.name}</p>
+          <p style="font-weight: 700;">${ship.type}</p>
+          <p>Launched: ${ship.launched}</p>
+          <p>Wrecked: ${ship.wrecked}</p>
+          `
+        )}
+        <div class="separator"></div>
+        <p>
+          ${properties.readMore}
+        </p>
+      </div>
+    `
   }
 }
