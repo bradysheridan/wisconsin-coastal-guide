@@ -6,7 +6,6 @@
   width: 100%;
   height: 8vh;
   background-color: $light-black;
-  // border-bottom: 1px solid $white;
   color: $white;
 
   > div {
@@ -32,5 +31,43 @@
       transition: 200ms;
       opacity: 0.8;
     }
+  }
+}
+
+#header-wrap-mobile {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  background-color: $light-black;
+  color: $white;
+  z-index: 1001;
+
+  > div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &:first-child {
+      padding-left: 15px;
+    }
+
+    &:last-child {
+      justify-content: flex-end;
+      * { margin-right: 15px; }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  #header-wrap {
+    display: none;
+  }
+
+  #header-wrap-mobile {
+    display: flex;
   }
 }

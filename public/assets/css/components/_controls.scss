@@ -1,6 +1,3 @@
-$toggler-height: 7%;
-$distance-from-bottom-on-mobile: 93%;
-
 #controls-wrap {
   width: 25%;
   height: 100%;
@@ -14,43 +11,21 @@ $distance-from-bottom-on-mobile: 93%;
   h6 {
     color: $white;
   }
-
-  #toggler {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: $toggler-height;
-  }
 }
 
 @media screen and (max-width: $bp-mobile) {
   #controls-wrap {
     position: absolute;
     width: 100%;
-    height: 100%;
-    right: 0px;
+    height: 65vh;
+    top: -65vh - 8vh;
+    z-index: 1000;
     left: 0px;
-    bottom: $distance-from-bottom-on-mobile;
 
-    #toggler {
-      transition: 300ms;
-      display: flex;
-    }
-
-    transition: 300ms;
+    transition: 350ms;
     &.visible {
-      transition: 300ms;
-      bottom: 0px;
-
-      #toggler {
-        transition: 300ms;
-        padding-bottom: 25px;
-        border-top: 1px solid $light-black;
-      }
+      transition: 350ms;
+      top: 8vh;
     }
   }
 }
