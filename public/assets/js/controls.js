@@ -3,10 +3,7 @@ $(function() {
   renderCheckboxes()
 
   // toggle logic for mobile side menu
-  $('#toggler').click(() => !$('#controls-wrap').attr('class')
-    ? $('#controls-wrap').attr('class', 'visible')
-    : $('#controls-wrap').attr('class', '')
-  )
+  $('#mobile-controls-toggler').click((e) => toggleMobileControlPanel(e))
 })
 
 // loop through LAYERS and assign each object a checkbox; append checkboxes
@@ -49,3 +46,30 @@ function handleCheckboxClick(cb, layerID) {
     mapState.activePopup = null
   }
 }
+
+// toggle visibility of contorl panel on mobile
+function toggleMobileControlPanel(e) {
+  e.preventDefault()
+
+  var className = $('#controls-wrap').attr('class')
+
+  if (!className || !className.includes('visible')) {
+    $('#controls-wrap').attr('class', 'visible')
+    $('#mobile-controls-toggler p').text('Hide Legend')
+  } else {
+    $('#controls-wrap').attr('class', '')
+    $('#mobile-controls-toggler p').text('Show Legend')
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+//

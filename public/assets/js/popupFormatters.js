@@ -1,5 +1,5 @@
 const popupFor = {
-  // beaches
+  // (point layer) beaches
   'wcg-beaches.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -31,7 +31,7 @@ const popupFor = {
     </div>
   `,
 
-  // boat access points
+  // (point layer) boat access points
   'wcg-boat-access.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -46,7 +46,7 @@ const popupFor = {
     </div>
   `,
 
-  // great lakes stories
+  // (point layer) great lakes stories
   'wcg-stories.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -67,7 +67,7 @@ const popupFor = {
     </div>
   `,
 
-  // historical sites along lake superior
+  // (point layer) historical sites along lake superior
   'wcg-historic-ls.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -82,7 +82,7 @@ const popupFor = {
     </div>
   `,
 
-  // lighthouses
+  // (point layer) lighthouses
   'wcg-lighthouses.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -97,7 +97,7 @@ const popupFor = {
     </div>
   `,
 
-  // marinas
+  // (point layer) marinas
   'wcg-marinas.json': (properties) => {
     properties.address = JSON.parse(properties.address)
     properties.link = JSON.parse(properties.link)
@@ -124,7 +124,7 @@ const popupFor = {
     `
   },
 
-  // maritime geocaches
+  // (point layer) maritime geocaches
   'wcg-maritime-geocaches.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -145,7 +145,7 @@ const popupFor = {
     </div>
   `,
 
-  // nature centers
+  // (point layer) nature centers
   'wcg-nature-centers.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
@@ -166,7 +166,7 @@ const popupFor = {
     </div>
   `,
 
-  // parks
+  // (point layer) parks
   'wcg-parks.json': (properties) => {
     properties.links = JSON.parse(properties.links)
     return `
@@ -194,7 +194,7 @@ const popupFor = {
     `
   },
 
-  // shipwrecks
+  // (point layer) shipwrecks
   'wcg-shipwrecks.json': (properties) => {
     properties.ships = JSON.parse(properties.ships)
     properties.readMore = properties.readMore.replace(new RegExp("<a", "g"), "<a target='_blank'")
@@ -225,7 +225,7 @@ const popupFor = {
     `
   },
 
-  // state natural areas
+  // (point layer) state natural areas
   'wcg-sna.json': (properties) => {
     properties.links = JSON.parse(properties.links)
     return `
@@ -245,5 +245,24 @@ const popupFor = {
         </p>
       </div>
     `
-  }
+  },
+
+  // (path layer) lake michigan circle tour
+  'wcg-glct-route-lake-michigan.json': (properties) => `
+    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Tour of Lake Michigan
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap">
+      <p>${properties.description}</p>
+      <div class="separator"></div>
+      <p>
+        Check out the detailed <a target='_blank' href='${properties.links.description}'>description</a> and <a target='_blank' href='${properties.links.map}'>map</a> of ${properties.name} Natural Area from the Wisconsin DNR.
+      </p>
+    </div>
+  `,
 }
