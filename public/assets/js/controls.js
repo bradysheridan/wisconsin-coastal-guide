@@ -4,6 +4,9 @@ $(function() {
 
   // toggle logic for mobile side menu
   $('#mobile-controls-toggler').click((e) => toggleMobileControlPanel(e))
+
+  // click logic for mobile about-this-map button
+  $('button#about-this-map').click((e) => goToAboutSection())
 })
 
 // loop through LAYERS and assign each object a checkbox; append checkboxes
@@ -62,7 +65,12 @@ function toggleMobileControlPanel(e) {
   }
 }
 
-
+// go to about section
+function goToAboutSection() {
+  $('html, body').animate({
+    scrollTop: ($('#about').offset().top)
+  }, 200)
+}
 
 
 

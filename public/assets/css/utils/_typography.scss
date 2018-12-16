@@ -18,6 +18,14 @@ html, body {
   }
 }
 
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 // font size (desktop)
 h1 { font-size: 6.6rem; padding: 0px; margin: 0px; }
 h2 { font-size: 5.4rem; padding: 0px; margin: 0px; }

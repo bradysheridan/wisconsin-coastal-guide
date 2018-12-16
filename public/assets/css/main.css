@@ -17,6 +17,14 @@ html input, body input {
   color: inherit;
 }
 
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 h1 {
   font-size: 6.6rem;
   padding: 0px;

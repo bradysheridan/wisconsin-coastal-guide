@@ -3,7 +3,11 @@ const crawl = require('./helpers/crawl')
 const showdown = require('showdown'),
       converter = new showdown.Converter()
 
-app.get('/', async function(req, res) {
+app.get('/', function(req, res) {
+  res.render('index')
+})
+
+app.get('/about', async function(req, res) {
   const footerContent = await crawl({
     pathRelToRoot: './public/assets/md',
     validExtensions: '.md',
@@ -12,7 +16,7 @@ app.get('/', async function(req, res) {
     ]
   })
 
-  res.render('index', { footerContent })
+  res.render('about', { footerContent })
 })
 
 app.get('/typography', function(req, res) {
