@@ -1,8 +1,6 @@
 $close-button-width: 30px;
 
 .popup-wrap {
-  max-width: 300px;
-
   .mapboxgl-popup-close-button {
     width: $close-button-width;
     color: $white;
@@ -24,8 +22,10 @@ $close-button-width: 30px;
     margin: 0px;
     padding: 0px;
     background-color: red;
+    
 
     .title-wrap {
+      max-width: 300px;
       background-color: $black;
       padding: 8px ($close-button-width + 10px) 8px 10px;
       border-left: 8px solid; /* color is provided in public/assets/js/popupFormatters.js */
@@ -33,10 +33,11 @@ $close-button-width: 30px;
     }
 
     .body-wrap {
+      max-width: 300px;
+      max-height: 225px;
       background-color: $white;
       padding: 8px 10px 8px 10px;
       color: $black;
-      max-height: 225px;
       overflow: scroll;
 
       .separator {

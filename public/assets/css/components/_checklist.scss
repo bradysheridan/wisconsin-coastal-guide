@@ -35,6 +35,7 @@ $accent-color: red;
     -ms-user-select: none;
     user-select: none;
 
+    &#wcg-panoramas { border-color: #F46036 !important; }
     &#wcg-beaches { border-color: #5B85AA !important; }
     &#wcg-boat-access { border-color: #36F1CD !important; }
     &#wcg-stories { border-color: #EF798A !important; }
@@ -112,5 +113,11 @@ $accent-color: red;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  .checkbox-wrap {
+    width: 100% !important;
   }
 }

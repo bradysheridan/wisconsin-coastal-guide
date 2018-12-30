@@ -1,4 +1,26 @@
 const popupFor = {
+
+  // (point layer) panoramas
+  'wcg-panoramas.json': (properties) => `
+    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important; max-width: 100%;">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Panorama
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap" style="max-width: 100%; padding: 0px;">
+      <!-- panorama image -->
+      <div id="pmvr" style="width: 500px; height: 225px;">
+        <param name="image" value="assets/images/panoramas/douglas-2018-20.jpg">
+        <param name="view" value="360">
+        <param name="pixdeg" value="0=130,27136=130">
+        <canvas width="100%" height="100%" tabindex="0" style="position: absolute; display: block; outline: none; touch-action: none; cursor: auto;"></canvas>
+      </div>
+    </div>
+  `,
+
   // (point layer) beaches
   'wcg-beaches.json': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">

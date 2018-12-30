@@ -2,7 +2,7 @@ const LAYERS = {
   "panoramas": {
     "text": "360 Degree Panoramas",
     "initiallyChecked": false,
-    "filename": "",
+    "filename": "wcg-panoramas.json",
     "geographyType": "points",
     "fill": "#F46036"
   },

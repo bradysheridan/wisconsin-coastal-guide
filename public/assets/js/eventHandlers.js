@@ -94,4 +94,10 @@ function handlePointClick(e) {
     center: coordinates,
     zoom: (map.getZoom() > 9.5) ? map.getZoom() : 9.5
   })
+
+  // bind PMVR
+  if (document.getElementById('pmvr')) {
+    console.log('binding pmvr...')
+    PMVR.bindto('pmvr','VicinityMap','Label')
+  }
 }

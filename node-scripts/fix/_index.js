@@ -10,6 +10,7 @@ module.exports.fix = function(dataset) {
     case "marinas": filepath = './fix-marinas.js'; break;
     case "maritimeGeocaches": filepath = './fix-maritime-geocaches.js'; break;
     case "natureCenters": filepath = './fix-nature-centers.js'; break;
+    case "panoramas": filepath = './fix-panoramas.js'; break;
     case "parks": filepath = './fix-parks.js'; break;
     case "path": filepath = './fix-path.js'; break;
     case "rusticRoads": filepath = './fix-rustic-roads.js'; break;

@@ -153,6 +153,9 @@ li {
   user-select: none;
   width: 100%;
 }
+.checklist .checkbox-wrap#wcg-panoramas {
+  border-color: #F46036 !important;
+}
 .checklist .checkbox-wrap#wcg-beaches {
   border-color: #5B85AA !important;
 }
@@ -249,11 +252,17 @@ li {
   transform: rotate(45deg);
 }
 
+@media screen and (max-width: 768px) {
+  .checkbox-wrap {
+    width: 100% !important;
+  }
+}
 #controls-wrap {
   width: 25%;
   height: 100%;
   background-color: #252422;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 #controls-wrap > div {
   padding: 20px 30px 20px 30px;
@@ -395,9 +404,6 @@ li {
     height: 100%;
   }
 }
-.popup-wrap {
-  max-width: 300px;
-}
 .popup-wrap .mapboxgl-popup-close-button {
   width: 30px;
   color: #fefffe;
@@ -418,6 +424,7 @@ li {
   background-color: red;
 }
 .popup-wrap .mapboxgl-popup-content .title-wrap {
+  max-width: 300px;
   background-color: #252422;
   padding: 8px 40px 8px 10px;
   border-left: 8px solid;
@@ -425,10 +432,11 @@ li {
   color: #fefffe;
 }
 .popup-wrap .mapboxgl-popup-content .body-wrap {
+  max-width: 300px;
+  max-height: 225px;
   background-color: #fefffe;
   padding: 8px 10px 8px 10px;
   color: #252422;
-  max-height: 225px;
   overflow: scroll;
 }
 .popup-wrap .mapboxgl-popup-content .body-wrap .separator {
@@ -486,6 +494,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
+  overflow-y: hidden;
 }
 
 .mapboxgl-ctrl-attrib a {
