@@ -6,3 +6,6 @@
 
 # misc
 .DS_Store
+
+# panorama images (not including them until compressed bc they are way too big)
+/public/assets/images/panoramas

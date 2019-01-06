@@ -10,14 +10,19 @@ const popupFor = {
         ${properties.name}
       </p>
     </div>
-    <div class="body-wrap" style="max-width: 100%; padding: 0px;">
+    <div class="body-wrap panorama" style="max-width: 100%; padding: 0px;">
       <!-- panorama image -->
       <div id="pmvr" style="width: 500px; height: 225px;">
-        <param name="image" value="assets/images/panoramas/douglas-2018-20.jpg">
+        <param name="image" value="assets/images/panoramas/${properties.img}">
         <param name="view" value="360">
         <param name="pixdeg" value="0=130,27136=130">
         <canvas width="100%" height="100%" tabindex="0" style="position: absolute; display: block; outline: none; touch-action: none; cursor: auto;"></canvas>
       </div>
+
+      <!-- fullscreen button -->
+      <a href="${properties.panoramaURL}" target="_blank" class="link-to-original">
+        <img src="assets/images/icons/maximize.svg" />
+      </a>
     </div>
   `,
 

@@ -22,7 +22,7 @@ $close-button-width: 30px;
     margin: 0px;
     padding: 0px;
     background-color: red;
-    
+
 
     .title-wrap {
       max-width: 300px;
@@ -33,6 +33,7 @@ $close-button-width: 30px;
     }
 
     .body-wrap {
+      position: relative;
       max-width: 300px;
       max-height: 225px;
       background-color: $white;
@@ -52,6 +53,32 @@ $close-button-width: 30px;
 
       i {
         font-size: inherit;
+      }
+
+      &.panorama {
+        a.link-to-original {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 14px;
+          right: 14px;
+          width: 30px;
+          height: 30px;
+          border-radius: 6px;
+          background-color: $light-grey;
+
+          img {
+            width: 24px;
+            height: 24px;
+          }
+
+          transition: 200ms;
+          &:hover {
+            opacity: 0.8;
+            transition: 200ms;
+          }
+        }
       }
     }
   }

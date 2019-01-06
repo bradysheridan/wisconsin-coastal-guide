@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "fs": "0.0.1-security",
+    "gm": "^1.23.1",
     "jsdom": "^13.0.0",
     "run-func": "^1.0.2"
   }

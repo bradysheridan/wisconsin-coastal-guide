@@ -7,14 +7,24 @@ module.exports.run = function() {
   var json = {
     "type": "FeatureCollection",
     "features": data.features.map((d, i) => {
-      console.log(d)
+      var urlBuffer = d.properties.panourl.split('/')
+      var htmlFilename = urlBuffer.pop()
+      var imgFilename = htmlFilename.split('.')[0] + '.jpg'
+      urlBuffer.push('images')
+      urlBuffer.push(imgFilename)
+      var imgUrl = urlBuffer.join('/')
+
+      // download(imgUrl, `public/assets/images/panoramas/${imgFilename}`, function() {
+      //   console.log('Downloaded', imgFilename)
+      // })
 
       return {
         "type": "Feature",
         "properties": {
           "name": d.properties.name,
           "datetime": d.properties.datetime,
-          "panoramaURL": d.properties.panourl
+          "panoramaURL": d.properties.panourl,
+          "img": imgFilename
         },
         "geometry": {
           "type": "Point",

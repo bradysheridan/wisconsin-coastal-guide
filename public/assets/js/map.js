@@ -56,7 +56,7 @@ const layerOf = {
 // set up map
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
+  style: 'mapbox://styles/bradysheridan/cjqldca7k2m262tptty3sp2t4',
   center: anchors.wi,
   zoom: 5.6,
   minZoom: 5.6,
@@ -73,7 +73,7 @@ var mapState = {
 
 // load layers
 map.on('load', function() {
-  var firstSymbolID = map.getStyle().layers.filter((d) => d.type === 'symbol')[0].id
+  var firstPlaceSymbolID = map.getStyle().layers.find((d) => d['source-layer'] === 'place_label').id
 
   // render path layers
   PATH_LAYER_KEYS.forEach((k) => {
@@ -82,7 +82,7 @@ map.on('load', function() {
     layer.key = k
 
     // add layer
-    map.addLayer(layerOf.paths(layer), firstSymbolID)
+    map.addLayer(layerOf.paths(layer), firstPlaceSymbolID)
 
     // bind click events to function located in eventHandlers.js
     map.on('click', layer.filename, handlePathClick)
@@ -99,7 +99,7 @@ map.on('load', function() {
     layer.key = k
 
     // add layer
-    map.addLayer(layerOf.points(layer), firstSymbolID)
+    map.addLayer(layerOf.points(layer), firstPlaceSymbolID)
 
     // bind click events to function located in eventHandlers.js
     map.on('click', layer.filename, handlePointClick)

@@ -50,7 +50,7 @@ function handleCheckboxClick(cb, layerID) {
   }
 }
 
-// toggle visibility of contorl panel on mobile
+// toggle visibility of control panel on mobile
 function toggleMobileControlPanel(e) {
   e.preventDefault()
 
