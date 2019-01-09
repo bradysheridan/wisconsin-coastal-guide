@@ -2,7 +2,7 @@ const popupFor = {
 
   // (point layer) panoramas
   'wcg-panoramas.json': (properties) => `
-    <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important; max-width: 100%;">
+    <div class="title-wrap panorama" style="border-left-color: ${properties.accentColor};">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Panorama
       </p>
@@ -10,9 +10,9 @@ const popupFor = {
         ${properties.name}
       </p>
     </div>
-    <div class="body-wrap panorama" style="max-width: 100%; padding: 0px;">
+    <div class="body-wrap panorama" style="padding: 0px;">
       <!-- panorama image -->
-      <div id="pmvr" style="width: 500px; height: 225px;">
+      <div id="pmvr">
         <param name="image" value="assets/images/panoramas/${properties.img}">
         <param name="view" value="360">
         <param name="pixdeg" value="0=130,27136=130">

@@ -21,8 +21,6 @@ $close-button-width: 30px;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    background-color: red;
-
 
     .title-wrap {
       max-width: 300px;
@@ -54,8 +52,24 @@ $close-button-width: 30px;
       i {
         font-size: inherit;
       }
+    }
+  }
+}
 
+/* panorama popups */
+.popup-wrap {
+  .mapboxgl-popup-content {
+    .title-wrap {
       &.panorama {
+        max-width: 500px;
+      }
+    }
+
+    .body-wrap {
+      &.panorama {
+        max-width: 500px;
+        #pmvr { width: 500px; height: 225px; }
+
         a.link-to-original {
           position: absolute;
           display: flex;
@@ -78,6 +92,23 @@ $close-button-width: 30px;
             opacity: 0.8;
             transition: 200ms;
           }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    .mapboxgl-popup-content {
+      .title-wrap {
+        &.panorama {
+          max-width: 80vw;
+        }
+      }
+
+      .body-wrap {
+        &.panorama {
+          max-width: 80vw;
+          #pmvr { width: 80vw; height: 80vw * 0.45; }
         }
       }
     }
