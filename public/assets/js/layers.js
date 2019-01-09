@@ -1,14 +1,14 @@
 const LAYERS = {
   "panoramas": {
     "text": "360 Degree Panoramas",
-    "initiallyChecked": false,
+    "initiallyChecked": true,
     "filename": "wcg-panoramas.json",
     "geographyType": "points",
     "fill": "#F46036"
   },
   "beaches": {
     "text": "Beaches",
-    "initiallyChecked": true,
+    "initiallyChecked": false,
     "filename": "wcg-beaches.json",
     "geographyType": "points",
     "fill": "#5B85AA"
@@ -29,7 +29,7 @@ const LAYERS = {
   },
   "lakeMichiganCircleTour": {
     "text": "Lake Michigan Circle Tour",
-    "initiallyChecked": false,
+    "initiallyChecked": true,
     "filename": "wcg-glct-route-lake-michigan.json",
     "geographyType": "paths",
     "fill": "#39A0ED"
