@@ -56,11 +56,11 @@ const layerOf = {
 // set up map
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/bradysheridan/cjqldca7k2m262tptty3sp2t4',
+  style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
   center: anchors.wi,
   zoom: 5.6,
   minZoom: 5.6,
-  maxZoom: 11.0,
+  maxZoom: 14.0,
   maxBounds: [
     [-95.64086454193206, 40.674929759579015],
     [-81.68625216652741, 49.6106842326941]
