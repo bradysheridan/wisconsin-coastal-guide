@@ -388,6 +388,8 @@ li {
 #map {
   display: flex;
   flex: 1;
+  height: 100%;
+  z-index: 9999;
 }
 
 .popup-wrap .mapboxgl-popup-close-button {
