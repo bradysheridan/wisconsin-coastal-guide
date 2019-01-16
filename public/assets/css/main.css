@@ -263,6 +263,8 @@ li {
   background-color: #252422;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  transition: 300ms;
+  margin-left: -25%;
 }
 #controls-wrap > div {
   padding: 20px 30px 20px 30px;
@@ -270,20 +272,39 @@ li {
 #controls-wrap h6 {
   color: #fefffe;
 }
+#controls-wrap.visible {
+  transition: 300ms;
+  margin-left: 0;
+}
+
+.controls-toggler {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 1.5vw;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  z-index: 999999999;
+  transition: 300ms;
+  left: 1.5%;
+}
+.controls-toggler.visible {
+  transition: 300ms;
+  left: 26.5%;
+}
 
 @media screen and (max-width: 768px) {
   #controls-wrap {
-    position: absolute;
     width: 100%;
-    height: 65vh;
-    top: -73vh;
-    z-index: 1000;
-    left: 0px;
-    transition: 350ms;
+    margin-left: -100%;
   }
-  #controls-wrap.visible {
-    transition: 350ms;
-    top: 8vh;
+
+  .controls-toggler.visible {
+    position: absolute;
+    left: 90%;
   }
 }
 #footer-wrap {
@@ -393,23 +414,11 @@ li {
     display: flex;
   }
 }
-.legend-button-wrap {
-  width: 90px;
-  height: 40px;
-  border: 1px solid red;
-}
-
 #map {
-  width: 75%;
-  height: 100%;
+  display: flex;
+  flex: 1;
 }
 
-@media screen and (max-width: 768px) {
-  #map {
-    width: 100%;
-    height: 100%;
-  }
-}
 .popup-wrap .mapboxgl-popup-close-button {
   width: 30px;
   color: #fefffe;
@@ -522,7 +531,9 @@ li {
   flex-direction: column;
   width: 100%;
 }
-#page #controls-and-map-wrap {
+
+#controls-and-map-wrap {
+  position: relative;
   display: flex;
   flex-direction: row;
   width: 100%;

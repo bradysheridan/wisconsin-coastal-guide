@@ -1,12 +1,14 @@
+const bpMobile = 768;
+
 $(function() {
-  // render checkboxes
   renderCheckboxes()
-
-  // toggle logic for mobile side menu
-  $('#mobile-controls-toggler').click((e) => toggleMobileControlPanel(e))
-
-  // click logic for mobile about-this-map button
-  $('button#about-this-map').click((e) => goToAboutSection())
+  $('.controls-toggler').on('click', toggleControls)
+  if ($(window).width() > bpMobile) {
+    toggleControls()
+    $('.controls-toggler .open').hide()
+  } else {
+    $('.controls-toggler .close').hide()
+  }
 })
 
 // loop through LAYERS and assign each object a checkbox; append checkboxes
@@ -51,33 +53,17 @@ function handleCheckboxClick(cb, layerID) {
 }
 
 // toggle visibility of control panel on mobile
-function toggleMobileControlPanel(e) {
-  e.preventDefault()
-
+function toggleControls() {
+  console.log('toggleControls was invoked')
   var className = $('#controls-wrap').attr('class')
 
   if (!className || !className.includes('visible')) {
-    $('#controls-wrap').attr('class', 'visible')
-    $('#mobile-controls-toggler p').text('Hide Legend')
+    $('#controls-wrap').addClass('visible')
+    $('.controls-toggler').addClass('visible')
+    $('.controls-toggler .open').fadeOut(100, () => $('.controls-toggler .close').fadeIn(100))
   } else {
-    $('#controls-wrap').attr('class', '')
-    $('#mobile-controls-toggler p').text('Show Legend')
+    $('#controls-wrap').removeClass('visible')
+    $('.controls-toggler').removeClass('visible')
+    $('.controls-toggler .close').fadeOut(100, () => $('.controls-toggler .open').fadeIn(100))
   }
 }
-
-// go to about section
-function goToAboutSection() {
-  $('html, body').animate({
-    scrollTop: ($('#about').offset().top)
-  }, 200)
-}
-
-
-
-
-
-
-
-
-
-//
