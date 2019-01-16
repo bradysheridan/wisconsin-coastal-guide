@@ -506,6 +506,7 @@ li {
   flex-direction: row;
   width: 100%;
   height: 92vh;
+  overflow-y: hidden;
 }
 
 #typography-sample-wrap {
