@@ -66,14 +66,14 @@ $accent-color: red;
     height: $checkmark-size;
     width: $checkmark-size;
     border-radius: 4px;
-    background-color: $light-black;
+    background-color: $light-grey;
     border: 1px solid transparent;
     transition: $transition;
   }
 
   // hovered
   .checkbox-wrap:hover input ~ .checkmark {
-    background-color: $light-black;
+    background-color: $light-grey;
     border: 1px solid;
     border-color: inherit;
     transition: $transition;

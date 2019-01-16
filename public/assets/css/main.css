@@ -1,4 +1,5 @@
 /* Coolors Exported Palette - coolors.co/a3e7fc-8cff98-fefffe-252422-d7fdec */
+/* new colors */
 html, body {
   font-family: "PT Serif", serif;
   font-size: 62.5%;
@@ -144,7 +145,7 @@ li {
   position: relative;
   height: 35px;
   font-size: 1.6rem;
-  color: #fefffe;
+  color: #FFFCF9;
   padding-left: 35px;
   cursor: pointer;
   -webkit-user-select: none;
@@ -213,12 +214,12 @@ li {
   height: 20px;
   width: 20px;
   border-radius: 4px;
-  background-color: #383733;
+  background-color: #eee;
   border: 1px solid transparent;
   transition: 200ms;
 }
 .checklist .checkbox-wrap:hover input ~ .checkmark {
-  background-color: #383733;
+  background-color: #eee;
   border: 1px solid;
   border-color: inherit;
   transition: 200ms;
@@ -260,17 +261,18 @@ li {
 #controls-wrap {
   width: 25%;
   height: 100%;
-  background-color: #252422;
+  background-color: #FFFCF9;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  border-right: 1px solid #F1F1F0;
   transition: 300ms;
   margin-left: -25%;
 }
 #controls-wrap > div {
   padding: 20px 30px 20px 30px;
 }
-#controls-wrap h6 {
-  color: #fefffe;
+#controls-wrap * {
+  color: #08090A;
 }
 #controls-wrap.visible {
   transition: 300ms;
@@ -289,11 +291,11 @@ li {
   border-radius: 6px;
   z-index: 999999999;
   transition: 300ms;
-  left: 1.5%;
+  left: 1.75%;
 }
 .controls-toggler.visible {
   transition: 300ms;
-  left: 26.5%;
+  left: 26.75%;
 }
 
 @media screen and (max-width: 768px) {
@@ -304,7 +306,8 @@ li {
 
   .controls-toggler.visible {
     position: absolute;
-    left: 90%;
+    left: auto;
+    right: 1.75%;
   }
 }
 #footer-wrap {
@@ -344,76 +347,44 @@ li {
     margin-left: 3.75%;
   }
 }
-#header-wrap {
+.header-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 8vh;
-  background-color: #383733;
-  color: #fefffe;
+  background-color: #FFFCF9;
+  color: #08090A;
+  border-bottom: 1px solid #A2A3BB;
 }
-#header-wrap > div {
+.header-wrap > div {
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-#header-wrap > div:first-child {
-  padding-left: 15px;
+.header-wrap > div:first-child {
+  padding-left: 30px;
 }
-#header-wrap > div:last-child {
+.header-wrap > div:first-child h6 {
+  margin-left: 20px;
+}
+.header-wrap > div:last-child {
   justify-content: flex-end;
 }
-#header-wrap > div:last-child * {
+.header-wrap > div:last-child * {
   margin-right: 15px;
 }
-#header-wrap a {
+.header-wrap a {
   text-decoration: none;
   transition: 200ms;
 }
-#header-wrap a:hover {
+.header-wrap a:hover {
   transition: 200ms;
   opacity: 0.8;
 }
 
-#header-wrap-mobile {
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 8vh;
-  background-color: #383733;
-  color: #fefffe;
-  z-index: 1001;
-}
-#header-wrap-mobile > div {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-#header-wrap-mobile > div:first-child {
-  padding-left: 15px;
-}
-#header-wrap-mobile > div:last-child {
-  justify-content: flex-end;
-}
-#header-wrap-mobile > div:last-child * {
-  margin-right: 15px;
-}
-
-@media screen and (max-width: 768px) {
-  #header-wrap {
-    display: none;
-  }
-
-  #header-wrap-mobile {
-    display: flex;
-  }
-}
 #map {
   display: flex;
   flex: 1;
@@ -421,7 +392,7 @@ li {
 
 .popup-wrap .mapboxgl-popup-close-button {
   width: 30px;
-  color: #fefffe;
+  color: #FFFCF9;
   font-size: 2.4rem;
   border-radius: 0px;
 }
@@ -439,19 +410,19 @@ li {
 }
 .popup-wrap .mapboxgl-popup-content .title-wrap {
   max-width: 300px;
-  background-color: #252422;
+  background-color: #08090A;
   padding: 8px 40px 8px 10px;
   border-left: 8px solid;
   /* color is provided in public/assets/js/popupFormatters.js */
-  color: #fefffe;
+  color: #FFFCF9;
 }
 .popup-wrap .mapboxgl-popup-content .body-wrap {
   position: relative;
   max-width: 300px;
   max-height: 225px;
-  background-color: #fefffe;
+  background-color: #FFFCF9;
   padding: 8px 10px 8px 10px;
-  color: #252422;
+  color: #08090A;
   overflow: scroll;
 }
 .popup-wrap .mapboxgl-popup-content .body-wrap .separator {
@@ -516,11 +487,8 @@ li {
 .separator {
   width: 100%;
   height: 1px;
-  background-color: #383733;
-  margin: 8px 0px 8px 0px;
-}
-.separator.light {
   background-color: #eee;
+  margin: 8px 0px 8px 0px;
 }
 .separator.spacious {
   margin: 24px 0px 24px 0px;

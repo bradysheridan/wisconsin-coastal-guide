@@ -5,16 +5,17 @@ $controls-width-mobile: 100%;
 #controls-wrap {
   width: $controls-width-desktop;
   height: 100%;
-  background-color: $black;
+  background-color: $white;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  border-right: 1px solid $off-white;
 
   > div {
     padding: 20px 30px 20px 30px;
   }
 
-  h6 {
-    color: $white;
+  * {
+    color: $black;
   }
 
   transition: $transition;
@@ -38,10 +39,10 @@ $controls-width-mobile: 100%;
   z-index: 999999999;
 
   transition: $transition;
-  left: 1.5%;
+  left: 1.75%;
   &.visible {
     transition: $transition;
-    left: $controls-width-desktop + 1.5%;
+    left: $controls-width-desktop + 1.75%;
   }
 }
 
@@ -54,7 +55,8 @@ $controls-width-mobile: 100%;
   .controls-toggler {
     &.visible {
       position: absolute;
-      left: 90%;
+      left: auto;
+      right: 1.75%;
     }
   }
 }
