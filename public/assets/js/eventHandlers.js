@@ -10,6 +10,7 @@ function handlePathClick(e) {
   var feature = e.features[0]
   var coordinates = [e.lngLat.lat, e.lngLat.lng]
   var props = Object.assign({}, feature.properties, { accentColor: feature.layer.paint['line-color'] })
+
   var html = popupFor[feature.layer.id](props)
 
   // ensure that if the map is zoomed out such that multiple copies of the

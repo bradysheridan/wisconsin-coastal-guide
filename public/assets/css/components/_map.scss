@@ -1,4 +1,18 @@
 #map {
   height: 100%;
   width: 100%;
+
+  transition: 300ms;
+  &.controls-are-visible {
+    transition: 300ms;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  #map {
+    &.controls-are-visible {
+      width: 0%;
+    }
+  }
 }

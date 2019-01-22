@@ -57,11 +57,17 @@ function toggleControls() {
   console.log('toggleControls was invoked')
   var className = $('#controls-wrap').attr('class')
 
+  // show controls
   if (!className || !className.includes('visible')) {
+    $('#map').addClass('controls-are-visible')
     $('#controls-wrap').addClass('visible')
     $('.controls-toggler').addClass('visible')
     $('.controls-toggler .open').fadeOut(100, () => $('.controls-toggler .close').fadeIn(100))
-  } else {
+  }
+
+  // hide controls
+  else {
+    $('#map').removeClass('controls-are-visible')
     $('#controls-wrap').removeClass('visible')
     $('.controls-toggler').removeClass('visible')
     $('.controls-toggler .close').fadeOut(100, () => $('.controls-toggler .open').fadeIn(100))
