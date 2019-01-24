@@ -69,12 +69,7 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
   center: (screenSize.w <= 768) ? anchors.mobile.wi : anchors.desktop.wi,
   zoom: (screenSize.w <= 768) ? 5.2 : 5.6,
-  // minZoom: 5.6,
-  // maxZoom: 14.0,
-  // maxBounds: [
-  //   [-95.64086454193206, 40.674929759579015],
-  //   [-81.68625216652741, 49.6106842326941]
-  // ]
+  minZoom: 4.8
 })
 
 var mapState = {
