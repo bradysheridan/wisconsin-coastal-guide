@@ -121,6 +121,21 @@ const popupFor = {
     </div>
     <div class="body-wrap">
       <p>${properties.description}</p>
+      <div class="separator"></div>
+      <p>Visit websites with more information about this lighthouse:</p>
+      <br />
+      ${JSON.parse(properties.links).map((d, i) =>
+        (d.link.indexOf('wisconsincoastalguide') >= 0)
+          ? ''
+          : `
+            <p>
+              <a href="${d.link}" target="_blank">
+                ${d.siteName}
+              </a>
+            </p>
+            `
+          )
+        }
     </div>
   `,
 

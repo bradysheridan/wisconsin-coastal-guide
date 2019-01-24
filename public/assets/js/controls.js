@@ -54,7 +54,6 @@ function handleCheckboxClick(cb, layerID) {
 
 // toggle visibility of control panel on mobile
 function toggleControls() {
-  console.log('toggleControls was invoked')
   var className = $('#controls-wrap').attr('class')
 
   // show controls

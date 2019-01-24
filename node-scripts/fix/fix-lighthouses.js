@@ -1,5 +1,21 @@
 const fs = require('fs')
+const getHrefs = require('get-hrefs')
 const { JSDOM } = require('jsdom')
+
+const siteNames = {
+  'http://lighthousefriends.com': 'Lighthouse Friends',
+  'terrypepper.com': 'Terry Pepper',
+  'boatnerd.com': 'BoatNerd',
+  'nps.gov': 'National Park Service',
+  'ridgessanctuary.org': 'Ridges Sanctuary',
+  'portwashingtonhistoricalsociety.org': 'Port Washington Historical Society',
+  'kenoshahistorycenter.org': 'Kenosha History Center',
+  'eagleblufflighthouse.org': 'Eagle Bluff Lighthouse',
+  'northpointlighthouse.org': 'North Point Lighthouse',
+  'jacksjoint.com': 'Jacks Joint',
+  'dnr.wi.gov': 'DNR'
+}
+const urls = Object.keys(siteNames)
 
 module.exports.run = function() {
   const data = require('../../public/data/dont-serve/geojson/wcg-lighthouses.json')
@@ -10,12 +26,30 @@ module.exports.run = function() {
       var dom = new JSDOM(d.properties.description)
       var name = dom.window.document.querySelector('h2').textContent
       var description = dom.window.document.querySelector('p').textContent
+      var links = getHrefs(d.properties.description)
+
+      var formattedLinks = links.map((link) => {
+        var siteName = ""
+
+        for (var i = 0; i < urls.length; i++) {
+          var url = urls[i]
+          if (link.indexOf(url) >= 0) {
+            siteName = siteNames[url]
+            break
+          }
+        }
+
+        return { siteName, link }
+      })
+
+      console.log(formattedLinks)
+
       var feature = {
         "type": "Feature",
         "properties": {
           "name": name,
           "description": description,
-          "links": []
+          "links": formattedLinks
         },
         "geometry": {
           "type": "Point",

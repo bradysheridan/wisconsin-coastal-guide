@@ -58,15 +58,21 @@ const layerOf = {
   })
 }
 
+// store screen width and height
 const screenSize = {
   w: window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth,
   h: window.innerHeight|| document.documentElement.clientHeight|| document.getElementsByTagName('body')[0].clientHeight
 }
 
+// tile set style codes
+const styles = {
+  basic: 'cjoly51q716fn2spgkluo6yxq'
+}
+
 // set up map
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
+  style: `mapbox://styles/bradysheridan/${styles.basic}`,
   center: (screenSize.w <= 768) ? anchors.mobile.wi : anchors.desktop.wi,
   zoom: (screenSize.w <= 768) ? 5.2 : 5.6,
   minZoom: 4.8
@@ -116,6 +122,6 @@ map.on('load', function() {
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)
   map.on('click', function (e) {
-    console.log(`[${e.lngLat.lng}, ${e.lngLat.lat}]`)
+    // console.log(`[${e.lngLat.lng}, ${e.lngLat.lat}]`)
   })
 })
