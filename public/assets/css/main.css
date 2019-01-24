@@ -290,6 +290,7 @@ li {
   border: 1px solid #eee;
   border-radius: 6px;
   z-index: 999999999;
+  background-color: #FFFCF9;
   transition: 300ms;
   left: 1.75%;
 }
@@ -312,6 +313,7 @@ li {
 }
 #footer-wrap {
   width: 100%;
+  background-color: #FFFCF9;
 }
 #footer-wrap > div {
   padding: 20px 0px 40px 0px;
@@ -356,24 +358,24 @@ li {
   height: 8vh;
   background-color: #FFFCF9;
   color: #08090A;
-  border-bottom: 1px solid #A2A3BB;
+  border-bottom: 1px solid #F1F1F0;
 }
-.header-wrap > div {
+.header-wrap div {
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.header-wrap > div:first-child {
+.header-wrap div:first-child {
   padding-left: 30px;
 }
-.header-wrap > div:first-child h6 {
+.header-wrap div:first-child h6 {
   margin-left: 20px;
 }
-.header-wrap > div:last-child {
+.header-wrap div:last-child {
   justify-content: flex-end;
 }
-.header-wrap > div:last-child * {
+.header-wrap div:last-child * {
   margin-right: 15px;
 }
 .header-wrap a {
@@ -385,6 +387,17 @@ li {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 768px) {
+  .header-wrap div:first-child {
+    padding-left: 15px;
+  }
+  .header-wrap div:first-child h6 {
+    margin-left: 8px;
+  }
+  .header-wrap div:last-child * {
+    margin-right: 8px;
+  }
+}
 #map {
   height: 100%;
   width: 100%;
@@ -508,7 +521,6 @@ li {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
 }
 
 #controls-and-map-wrap {
@@ -536,7 +548,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  overflow-y: hidden;
+  background-color: #FFFCF9;
 }
 
 .mapboxgl-ctrl-attrib a {
