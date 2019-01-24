@@ -3,7 +3,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYnJhZHlzaGVyaWRhbiIsImEiOiJjajloOWx2Z2cyeTV1M
 
 // coordinates to be frequently switched between
 const anchors = {
-  wi: [-90, 44.75]
+  mobile: {
+    wi: [-90, 44.4]
+  },
+  desktop: {
+    wi: [-86.5, 44.4]
+  }
 }
 
 // layer generators
@@ -53,18 +58,23 @@ const layerOf = {
   })
 }
 
+const screenSize = {
+  w: window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth,
+  h: window.innerHeight|| document.documentElement.clientHeight|| document.getElementsByTagName('body')[0].clientHeight
+}
+
 // set up map
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/bradysheridan/cjoly51q716fn2spgkluo6yxq',
-  center: anchors.wi,
-  zoom: 5.6,
-  minZoom: 5.6,
-  maxZoom: 14.0,
-  maxBounds: [
-    [-95.64086454193206, 40.674929759579015],
-    [-81.68625216652741, 49.6106842326941]
-  ]
+  center: (screenSize.w <= 768) ? anchors.mobile.wi : anchors.desktop.wi,
+  zoom: (screenSize.w <= 768) ? 5.2 : 5.6,
+  // minZoom: 5.6,
+  // maxZoom: 14.0,
+  // maxBounds: [
+  //   [-95.64086454193206, 40.674929759579015],
+  //   [-81.68625216652741, 49.6106842326941]
+  // ]
 })
 
 var mapState = {
@@ -83,13 +93,6 @@ map.on('load', function() {
 
     // add layer
     map.addLayer(layerOf.paths(layer), firstPlaceSymbolID)
-
-    // bind click events to function located in eventHandlers.js
-    map.on('click', layer.filename, handlePathClick)
-
-    // turn cursor into a pointer on hover
-    map.on('mouseenter', layer.filename, function() { map.getCanvas().style.cursor = 'pointer' })
-    map.on('mouseleave', layer.filename, function() { map.getCanvas().style.cursor = '' })
   })
 
   // render point layers
