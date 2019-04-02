@@ -531,6 +531,8 @@ li {
 }
 .shareable-url-generator-wrap button {
   display: flex;
+  align-items: center;
+  height: 100%;
   font-size: 1.4rem;
   border: none;
   background-color: transparent;
@@ -539,16 +541,18 @@ li {
   margin-right: 8px;
 }
 .shareable-url-generator-wrap button .icons-wrap {
-  width: 18px;
+  height: 100%;
   position: relative;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.shareable-url-generator-wrap button .icons-wrap img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
+.shareable-url-generator-wrap button .icons-wrap .icon-wrap {
+  height: 18px;
+}
+.shareable-url-generator-wrap button .icons-wrap .icon-wrap img {
+  width: auto;
+  height: 100%;
 }
 @media screen and (max-width: 768px) {
   .shareable-url-generator-wrap {

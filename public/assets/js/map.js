@@ -78,10 +78,10 @@ const map = new mapboxgl.Map({
   minZoom: 4.8
 })
 
+// track active popup
 var mapState = {
   activePopup: null
 }
-
 
 // load layers
 map.on('load', function() {
