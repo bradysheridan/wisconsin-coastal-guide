@@ -41,7 +41,7 @@ const layerOf = {
     type: 'line',
     source: {
       type: 'geojson',
-      data: `../../data/serve/geojson/${filename}`,
+      data: layerData[filename],
       tolerance: 0
     },
     paint: {
