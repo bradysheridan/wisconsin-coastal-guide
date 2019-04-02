@@ -1,10 +1,23 @@
 const bpMobile = 768
 
 $(function() {
-  renderCheckboxes()
+  $('.shareable-url-generator-wrap img#success').hide()
 
-  // set map state on a small delay to give mapbox time to load styles
-  setTimeout(setMapStateFromURL, 1000)
+  let urlVars = getUrlVars()
+
+  // if there's a predefined state, check the appropriate boxes
+  if (urlVars.checked) {
+    let checked = (urlVars.checked.indexOf(',') > 0) ? urlVars.checked.split(",") : [urlVars.checked]
+    renderCheckboxes(checked)
+  }
+
+  // otherwise, check the default initial boxes
+  else {
+    let checked = ['wcg-beaches', 'wcg-panoramas', 'wcg-glct-route-lake-michigan']
+    renderCheckboxes(checked)
+  }
+
+  $('.shareable-url-generator-wrap').on('click', generateShareableURL)
 
   $('.controls-toggler').on('click', toggleControls)
 
@@ -18,11 +31,16 @@ $(function() {
 
 // loop through LAYERS and assign each object a checkbox append checkboxes
 // to DOM
-function renderCheckboxes() {
+function renderCheckboxes(checked) {
+
+  // check initially checked boxes
+  if (checked) checked.forEach((str) => (LAYERS[str]) ? LAYERS[str].initiallyChecked = true : null)
+
   var pointLayers = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "points")
   var pathLayers = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "paths")
   var checkboxElementsForPointLayers = getCheckboxElements(pointLayers)
   var checkboxElementsForPathLayers = getCheckboxElements(pathLayers)
+
   $("#checklist-for-point-layers").append(checkboxElementsForPointLayers)
   $("#checklist-for-path-layers").append(checkboxElementsForPathLayers)
 
@@ -81,32 +99,103 @@ function toggleControls() {
 // check for url variables and, if any, set the map state
 function setMapStateFromURL() {
   let urlVars = getUrlVars()
-  let checkboxes = $('.checkbox-wrap')
-  console.log('urlVars', urlVars)
-  console.log('checkboxes', checkboxes)
 
-  if (urlVars.checkedPlaces) {
-    let checkedPlaces = (urlVars.checkedPlaces.indexOf(',') > 0) ? urlVars.checkedPlaces.split(",") : [urlVars.checkedPlaces]
-    checkedPlaces.forEach((id) => {
+  if (urlVars.checked) {
+    let checked = (urlVars.checked.indexOf(',') > 0) ? urlVars.checked.split(",") : [urlVars.checked]
+    checked.forEach((id) => {
       let el = $(`#${id}`)
       el.click()
     })
   }
 }
 
+// generate shareable url whose variables set map state upon load
+let copying = false
+function generateShareableURL() {
+  if (copying) return
+
+  let message = $('.shareable-url-generator-wrap p')
+  let checkboxes = $('.checkbox-wrap')
+  let checked = ""
+
+  checkboxes.each((i, el) => {
+    let input = $(el).children()[0]
+    let isChecked = input.checked
+    if (isChecked) checked += ("" === checked) ? el.id : `,${el.id}`
+  })
+
+  let url = (checked.length > 0)
+    ? `${window.location.origin}/?checked=${checked}`
+    : window.location.origin
+
+  let messageStr = (checked.length > 0)
+    ? "Link Copied"
+    : ""
+
+  if (messageStr.length > 0) {
+    copyToClipboard(url)
+
+    let delay = 300
+    let origText = message.html()
+    let shareIcon = $('.shareable-url-generator-wrap img#share')
+    let successIcon = $('.shareable-url-generator-wrap img#success')
+
+    // show success icon and text
+    copying = true
+    message.fadeOut(delay)
+    shareIcon.fadeOut(delay)
+    setTimeout(() => {
+      message.html(messageStr)
+      message.fadeIn(delay)
+      message.css('color', '#13a151')
+      successIcon.fadeIn(delay)
+    }, delay)
+
+    // show share icon and text
+    setTimeout(() => {
+      copying = false
+      message.fadeOut(delay)
+      successIcon.fadeOut(delay)
+      setTimeout(() => {
+        message.html(origText)
+        message.css('color', '#000')
+        message.fadeIn(delay)
+        shareIcon.fadeIn(delay)
+      }, delay)
+    }, 2000)
+  }
+
+  return url
+}
+
 // get url variables
 function getUrlVars() {
   let vars = {}
-  let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, (m, key, value) => {
-    vars[key] = value
-  })
-
+  let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, (m, key, value) => { vars[key] = value })
   return vars
 }
 
-
-
-
+// copy text to clipboard
+// (taken from https://hackernoon.com/copying-text-to-clipboard-with-javascript-df4d4988697f)
+const copyToClipboard = str => {
+  const el = document.createElement('textarea')  // Create a <textarea> element
+  el.value = str                                 // Set its value to the string that you want copied
+  el.setAttribute('readonly', '')                // Make it readonly to be tamper-proof
+  el.style.position = 'absolute'
+  el.style.left = '-9999px'                      // Move outside the screen to make it invisible
+  document.body.appendChild(el)                  // Append the <textarea> element to the HTML document
+  const selected =
+    document.getSelection().rangeCount > 0       // Check if there is any content selected previously
+      ? document.getSelection().getRangeAt(0)    // Store selection if found
+      : false                                    // Mark as false to know no selection existed before
+  el.select()                                    // Select the <textarea> content
+  document.execCommand('copy')                   // Copy - only works as a result of a user action (e.g. click events)
+  document.body.removeChild(el)                  // Remove the <textarea> element
+  if (selected) {                                // If a selection existed before copying
+    document.getSelection().removeAllRanges()    // Unselect everything on the HTML document
+    document.getSelection().addRange(selected)   // Restore the original selection
+  }
+}
 
 
 

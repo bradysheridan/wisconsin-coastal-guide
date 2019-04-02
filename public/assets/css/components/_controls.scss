@@ -3,6 +3,7 @@ $controls-width-desktop: 25%;
 $controls-width-mobile: 100%;
 
 #controls-wrap {
+  position: relative;
   width: $controls-width-desktop;
   height: 100%;
   background-color: $white;

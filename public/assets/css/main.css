@@ -259,6 +259,7 @@ li {
   }
 }
 #controls-wrap {
+  position: relative;
   width: 25%;
   height: 100%;
   background-color: #FFFCF9;
@@ -515,6 +516,48 @@ li {
 }
 .separator.spacious {
   margin: 24px 0px 24px 0px;
+}
+
+.shareable-url-generator-wrap {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 30px;
+  height: 36px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 0px 6px 0px 6px;
+}
+.shareable-url-generator-wrap button {
+  display: flex;
+  font-size: 1.4rem;
+  border: none;
+  background-color: transparent;
+}
+.shareable-url-generator-wrap button p {
+  margin-right: 8px;
+}
+.shareable-url-generator-wrap button .icons-wrap {
+  width: 18px;
+  position: relative;
+  background-color: blue;
+}
+.shareable-url-generator-wrap button .icons-wrap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .shareable-url-generator-wrap {
+    top: 6px;
+    right: 55px;
+  }
+  .shareable-url-generator-wrap .icons-wrap {
+    width: 14px;
+  }
 }
 
 #page {

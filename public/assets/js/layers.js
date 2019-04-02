@@ -1,84 +1,84 @@
-const LAYERS = {
+let LAYERS = {
 
   // point layers (csv)
-  "beaches": {
+  "wcg-beaches": {
     "text": "Beaches",
-    "initiallyChecked": true,
+    "initiallyChecked": false,
     "filename": "wcg-beaches.csv",
     "geographyType": "points",
     "fill": "#5B85AA"
   },
-  "panoramas": {
+  "wcg-panoramas": {
     "text": "360 Degree Panoramas",
-    "initiallyChecked": true,
+    "initiallyChecked": false,
     "filename": "wcg-panoramas.csv",
     "geographyType": "points",
     "fill": "#F46036"
   },
-  "boatAccess": {
+  "wcg-boat-access": {
     "text": "Boat Access Points",
     "initiallyChecked": false,
     "filename": "wcg-boat-access.csv",
     "geographyType": "points",
     "fill": "#36F1CD"
   },
-  "greatLakesStories": {
+  "wcg-stories": {
     "text": "Great Lakes Stories",
     "initiallyChecked": false,
     "filename": "wcg-stories.csv",
     "geographyType": "points",
     "fill": "#EF798A"
   },
-  "historicSitesLakeSuperior": {
+  "wcg-historic-ls": {
     "text": "Historic Sites on Lake Superior",
     "initiallyChecked": false,
     "filename": "wcg-historic-ls.csv",
     "geographyType": "points",
     "fill": "#FFC857"
   },
-  "lighthouses": {
+  "wcg-lighthouses": {
     "text": "Lighthouses",
     "initiallyChecked": false,
     "filename": "wcg-lighthouses.csv",
     "geographyType": "points",
     "fill": "#63B0CD"
   },
-  "marinas": {
+  "wcg-marinas": {
     "text": "Marinas",
     "initiallyChecked": false,
     "filename": "wcg-marinas.csv",
     "geographyType": "points",
     "fill": "#E9D2F4"
   },
-  "maritimeHistoryGeocaches": {
+  "wcg-maritime-geocaches": {
     "text": "Maritime History Geocaches",
     "initiallyChecked": false,
     "filename": "wcg-maritime-geocaches.csv",
     "geographyType": "points",
     "fill": "#da3737"
   },
-  "natureCenters": {
+  "wcg-nature-centers": {
     "text": "Nature Centers",
     "initiallyChecked": false,
     "filename": "wcg-nature-centers.csv",
     "geographyType": "points",
     "fill": "#3c9023"
   },
-  "parks": {
+  "wcg-parks": {
     "text": "Parks",
     "initiallyChecked": false,
     "filename": "wcg-parks.csv",
     "geographyType": "points",
     "fill": "#7b32a7"
   },
-  "shipwrecks": {
+  "wcg-shipwrecks": {
     "text": "Shipwrecks",
     "initiallyChecked": false,
     "filename": "wcg-shipwrecks.csv",
     "geographyType": "points",
     "fill": "#9BC53D"
   },
-  "stateNaturalAreas": {
+  "wcg-sna": {
     "text": "State Natural Areas",
     "initiallyChecked": false,
     "filename": "wcg-sna.csv",
@@ -87,28 +87,28 @@ const LAYERS = {
   },
 
   // path layers (geojson)
-  "lakeMichiganCircleTour": {
+  "wcg-glct-route-lake-michigan": {
     "text": "Lake Michigan Circle Tour",
-    "initiallyChecked": true,
+    "initiallyChecked": false,
     "filename": "wcg-glct-route-lake-michigan.json",
     "geographyType": "paths",
     "fill": "#39A0ED"
   },
-  "lakeSuperiorCircleTour": {
+  "wcg-glct-route-lake-superior": {
     "text": "Lake Superior Circle Tour",
     "initiallyChecked": false,
     "filename": "wcg-glct-route-lake-superior.json",
     "geographyType": "paths",
     "fill": "#EDAFB8"
   },
-  "rusticRoads": {
+  "wcg-rustic-roads": {
     "text": "Rustic Roads",
     "initiallyChecked": false,
     "filename": "wcg-rustic-roads.json",
     "geographyType": "paths",
     "fill": "#7BDFF2"
   },
-  "scenicByways": {
+  "wcg-byways": {
     "text": "Scenic Byways",
     "initiallyChecked": false,
     "filename": "wcg-byways.json",
