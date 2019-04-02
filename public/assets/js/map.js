@@ -20,7 +20,7 @@ const layerOf = {
     type: 'circle',
     source: {
       type: 'geojson',
-      data: `../../data/serve/geojson/${filename}`
+      data: layerData[filename]
     },
     paint: {
       'circle-radius': {
@@ -82,6 +82,7 @@ var mapState = {
   activePopup: null
 }
 
+
 // load layers
 map.on('load', function() {
   var firstPlaceSymbolID = map.getStyle().layers.find((d) => d['source-layer'] === 'place_label').id
@@ -113,7 +114,10 @@ map.on('load', function() {
     map.on('mouseleave', layer.filename, function() { map.getCanvas().style.cursor = '' })
   })
 
-  // adds user location tracker
+  // adds zoom controls
+  map.addControl(new mapboxgl.NavigationControl())
+
+  // adds locaiton tracker control
   map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: { enableHighAccuracy: true },
     trackUserLocation: true
@@ -122,6 +126,6 @@ map.on('load', function() {
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)
   map.on('click', function (e) {
-    // console.log(`[${e.lngLat.lng}, ${e.lngLat.lat}]`)
+    console.log(`[${e.lngLat.lng}, ${e.lngLat.lat}]`)
   })
 })

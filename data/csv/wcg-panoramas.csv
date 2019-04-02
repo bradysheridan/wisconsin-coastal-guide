@@ -1,0 +1,37 @@
+type,properties/name,properties/datetime,properties/panoramaURL,properties/img,geometry/type,geometry/coordinates/0,geometry/coordinates/1
+Feature,Wisconsin Point,2018-10-13T13:35:44Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-1.html,douglas-2018-1.jpg,Point,-92.013517,46.706111
+Feature,Wisconsin Point,2018-10-13T13:42:10Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-2.html,douglas-2018-2.jpg,Point,-92.012623,46.705683
+Feature,Wisconsin Point,2018-10-13T13:56:15Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-3.html,douglas-2018-3.jpg,Point,-92.011109,46.705339
+Feature,Wisconsin Point,2018-10-13T14:07:21Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-4.html,douglas-2018-4.jpg,Point,-92.014841,46.70608
+Feature,Wisconsin Point,2018-10-13T14:13:30Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-5.html,douglas-2018-5.jpg,Point,-92.017054,46.704398
+Feature,Wisconsin Point,2018-10-13T14:58:31Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-7.html,douglas-2018-7.jpg,Point,-92.006572,46.702722
+Feature,Wisconsin Point,2018-10-13T15:02:14Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-8.html,douglas-2018-8.jpg,Point,-92.006008,46.704244
+Feature,Billings Park,2018-10-13T16:02:35Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-9.html,douglas-2018-9.jpg,Point,-92.144468,46.714001
+Feature,Billings Park,2018-10-13T16:04:43Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-10.html,douglas-2018-10.jpg,Point,-92.14509,46.713851
+Feature,Ami Friendship Garden,2018-10-13T16:33:35Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-11.html,douglas-2018-11.jpg,Point,-92.141956,46.710933
+Feature,Pokegema Bay,2018-10-13T17:22:06Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-15.html,douglas-2018-15.jpg,Point,-92.149458,46.681714
+Feature,Pokegema Bay,2018-10-13T17:32:55Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-16.html,douglas-2018-16.jpg,Point,-92.134388,46.67138
+Feature,Sajac Memorial Park,2018-10-13T17:48:42Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-17.html,douglas-2018-17.jpg,Point,-92.20298,46.651746
+Feature,"Highway 13 Boat Landing, Brule River State Forest",2018-10-13T19:29:03Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-18.html,douglas-2018-18.jpg,Point,-91.595396,46.678929
+Feature,"Bois Brule River Mouth Access, Brule River State Forest",2018-10-13T19:53:39Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/douglas-2018/douglas-2018-20.html,douglas-2018-20.jpg,Point,-91.609031,46.748089
+Feature,Highway 13 Scenic Pullout,2018-10-13T20:25:40Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-21.html,bayfield-2018-21.jpg,Point,-91.512859,46.756927
+Feature,Highway 13 Wayside,2018-10-13T21:10:56Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-23.html,bayfield-2018-23.jpg,Point,-91.456533,46.772019
+Feature,Siskiwit Bay,2018-10-13T21:46:03Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-24.html,bayfield-2018-24.jpg,Point,-91.099154,46.859425
+Feature,Siskiwit Bay,2018-10-13T21:48:18Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-25.html,bayfield-2018-25.jpg,Point,-91.098952,46.859848
+Feature,"Meyers Beach, Apostle Islands National Lakeshore",2018-10-13T22:11:29Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-26.html,bayfield-2018-26.jpg,Point,-91.048006,46.883609
+Feature,"Meyers Beach, Apostle Islands National Lakeshore",2018-10-13T22:15:33Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-27.html,bayfield-2018-27.jpg,Point,-91.048686,46.883669
+Feature,Little Sand Bay Campground,2018-10-13T22:45:55Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-28.html,bayfield-2018-28.jpg,Point,-90.888638,46.947122
+Feature,Little Sand Bay Campground,2018-10-13T22:49:18Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-29.html,bayfield-2018-29.jpg,Point,-90.889858,46.946729
+Feature,Dalrymple Campground,2018-10-14T18:14:23Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-34.html,bayfield-2018-34.jpg,Point,-90.806982,46.818409
+Feature,Dalrymple Campground,2018-10-14T18:17:20Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-35.html,bayfield-2018-35.jpg,Point,-90.805736,46.819275
+Feature,Dalrymple Campground,2018-10-14T18:18:58Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-36.html,bayfield-2018-36.jpg,Point,-90.80539,46.819469
+Feature,Dalrymple Campground,2018-10-14T18:20:48Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-37.html,bayfield-2018-37.jpg,Point,-90.804864,46.819811
+Feature,Dalrymple Campground,2018-10-14T18:23:03Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-38.html,bayfield-2018-38.jpg,Point,-90.803949,46.820313
+Feature,Memorial Park,2018-10-14T18:39:44Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-39.html,bayfield-2018-39.jpg,Point,-90.813814,46.810598
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:07:56Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-40.html,bayfield-2018-40.jpg,Point,-90.857016,46.693807
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:09:36Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-41.html,bayfield-2018-41.jpg,Point,-90.856903,46.693664
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:13:21Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-42.html,bayfield-2018-42.jpg,Point,-90.8549,46.692715
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:16:06Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-43.html,bayfield-2018-43.jpg,Point,-90.854521,46.693324
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:19:24Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-44.html,bayfield-2018-44.jpg,Point,-90.85458,46.692762
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:27:28Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-45.html,bayfield-2018-45.jpg,Point,-90.859641,46.69478
+Feature,Houghton Falls Nature Preserve,2018-10-14T20:30:19Z,http://maps.aqua.wisc.edu/geocatalog/panoramas/bayfield-2018/bayfield-2018-46.html,bayfield-2018-46.jpg,Point,-90.860297,46.695064

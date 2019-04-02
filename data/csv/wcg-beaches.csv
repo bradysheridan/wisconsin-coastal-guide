@@ -1,0 +1,190 @@
+type,properties/name,properties/beachCode,properties/nearestTown,properties/length,properties/epaId,geometry/type,geometry/coordinates/0,geometry/coordinates/1
+Feature,Bradford Beach,41-005,Milwaukee,2673,WI312597,Point,-87.873078,43.061833
+Feature,Southport Park,30-007,Kenosha,1356,WI400905,Point,-87.812117,42.562039
+Feature,Lakeview Park,60-009,Sheboygan,2008,,Point,-87.707074,43.720216
+Feature,Kohler-Andrae State Park Nature Cent,60-008,Sheboygan,4530,WI526839,Point,-87.716775,43.665092
+Feature,Kohler-Andrae State Park South Picni,60-016,Sheboygan,2223,WI626591,Point,-87.725413,43.651989
+Feature,Neshotah Park,36-008,Two Rivers,4511,WI821179,Point,-87.555535,44.149713
+Feature,Point State Park Lakeshore Picnic Ar,36-017,Two Rivers,2501,WI538951,Point,-87.506925,44.217703
+Feature,Deland Park,60-003,Sheboygan,4626,WI949936,Point,-87.70238,43.759168
+Feature,Grant Park,41-006,South Milwaukee,6388,WI429764,Point,-87.840298,42.912232
+Feature,Sheridan Park,41-010,Cudahy,4781,,Point,-87.844882,42.957457
+Feature,McKinley,41-009,Milwaukee,737,WI234408,Point,-87.881807,43.053287
+Feature,Watercraft Beach (McKinley Jetski Lake),41-008,Milwaukee,989,,Point,-87.879501,43.055028
+Feature,Alford Park,30-001,Kenosha,5468,WI371142,Point,-87.819895,42.613182
+Feature,Big Bay State Park,02-002,La Pointe,7377,WI937015,Point,-90.67604,46.807689
+Feature,Wisconsin Point #1 (City of Superior),16-012,Itasca (Superior),17268,WI888427,Point,-92.003337,46.70231
+Feature,Wisconsin Point #3 (University of Wi),16-014,Itasca (Superior),2679,WI573145,Point,-91.942289,46.679855
+Feature,Wisconsin Point #2 (Douglas County),16-013,Itasca (Superior),1369,WI669980,Point,-91.950376,46.6804
+Feature,Oronto Bay #1,26-001,Cedar,3099,WI895483,Point,-90.470503,46.572855
+Feature,Oronto Bay #2,26-002,Cedar,2953,WI938425,Point,-90.490782,46.582163
+Feature,Oronto Bay #3,26-003,Cedar,167,WI502001,Point,-90.500565,46.587311
+Feature,Sioux River North,04-011,Washburn,921,WI728716,Point,-90.884065,46.747943
+Feature,Zoo,52-007,Racine,2248,WI988510,Point,-87.781448,42.748621
+Feature,North,52-003,Racine,3115,WI721390,Point,-87.780327,42.74112
+Feature,Michigan Blvd,52-001,Racine,1303,,Point,-87.780648,42.753833
+Feature,Wind Point Lighthouse,52-006,Wind Point,303,,Point,-87.757464,42.781185
+Feature,Shoop Park,52-005,Wind Point,3095,,Point,-87.761183,42.778281
+Feature,Big Bay Town Park,02-003,La Pointe,1184,WI985506,Point,-90.674545,46.81881
+Feature,Port Wing West,04-009,Port Wing,4143,WI347339,Point,-91.392301,46.790146
+Feature,Port Wing East,04-008,Port Wing,3306,WI159171,Point,-91.369704,46.793709
+Feature,Herbster,04-004,Herbster,1596,WI104571,Point,-91.257477,46.836378
+Feature,Sioux River South,04-012,Washburn,5984,WI666189,Point,-90.878137,46.737404
+Feature,Seagull Bar Wildlife Area,38-004,Marinette,3078,,Point,-87.57942,45.075868
+Feature,Silver Creek,36-011,Manitowoc,1437,,Point,-87.653431,44.061174
+Feature,University,36-013,Manitowoc,1275,,Point,-87.653581,44.064616
+Feature,Saxon Harbor East,26-004,Cedar,1151,WI157254,Point,-90.43545,46.562226
+Feature,Saxon Harbor West,26-005,Cedar,254,WI960543,Point,-90.441483,46.562515
+Feature,Allouez Bay #2,16-002,Itasca (Superior),283,WI294067,Point,-92.002164,46.698723
+Feature,Allouez Bay #3,16-003,Itasca (Superior),174,WI578209,Point,-91.987998,46.69173
+Feature,Brule River State Forest #3,16-009,Port Wing,1446,WI983384,Point,-91.728973,46.715171
+Feature,Barker Island Inner,16-005,Superior,496,WI887548,Point,-92.059926,46.720237
+Feature,Barker Island Outer,16-006,Superior,629,WI915457,Point,-92.058301,46.720637
+Feature,Allouez Bay #1,16-001,Itasca (Superior),773,WI349391,Point,-92.012499,46.702226
+Feature,Amnicon River,16-004,Amnicon Falls,124,WI545475,Point,-91.857133,46.691584
+Feature,Middle River,16-011,Wentworth,696,WI741058,Point,-91.829281,46.689931
+Feature,Brule River State Forest #2,16-008,Port Wing,1074,WI750300,Point,-91.614144,46.746615
+Feature,Brule River State Forest #1,16-007,Port Wing,1202,WI137478,Point,-91.61076,46.747705
+Feature,Thompson West End Park,04-014,Washburn,340,WI275933,Point,-90.904887,46.665736
+Feature,Wikdal Memorial Boat Launch,04-018,Washburn,198,WI151032,Point,-90.902033,46.666391
+Feature,Washburn Walking Trail  (aka BAB),04-016,Washburn,270,WI437149,Point,-90.894063,46.667776
+Feature,Washburn Marina,04-015,Washburn,211,WI981381,Point,-90.885994,46.669949
+Feature,Memorial Bayfield,04-006,Bayfield,105,WI627331,Point,-90.813249,46.810754
+Feature,Highway 13 Wayside,04-005,Port Wing,483,,Point,-91.513358,46.756953
+Feature,Siskiwit,04-013,Cornucopia,1436,WI197157,Point,-91.099986,46.859513
+Feature,Bono Creek Boat Launch,04-002,Washburn,261,,Point,-90.921087,46.636889
+Feature,Washington Ave,04-017,Bayfield,555,WI984993,Point,-90.811979,46.812745
+Feature,River Loop Rd,04-010,Port Wing,167,,Point,-91.484374,46.767921
+Feature,Memorial Park Washburn,04-007,Washburn,321,WI928596,Point,-90.881212,46.675142
+Feature,Broad St,04-003,Bayfield,71,WI092383,Point,-90.817177,46.807652
+Feature,Bark Bay,04-001,Herbster,6318,WI612731,Point,-91.194796,46.85037
+Feature,Casper Rd,02-004,La Pointe,77,WI415576,Point,-90.783097,46.752594
+Feature,Bayview Park Ashland,02-001,Ashland,4240,WI883392,Point,-90.864255,46.602981
+Feature,Kreher Park,02-005,Ashland,895,WI664128,Point,-90.880956,46.597553
+Feature,Maslowski,02-007,Ashland,1431,WI134911,Point,-90.920753,46.583436
+Feature,Red Arrow Marinette #2,38-002,Marinette,358,,Point,-87.586652,45.085961
+Feature,Red Arrow Marinette #3,38-003,Marinette,2469,,Point,-87.583496,45.081914
+Feature,Red Arrow Marinette #1,38-001,Marinette,2180,,Point,-87.589014,45.088861
+Feature,Bayshore Park,05-001,Green Bay,1957,WI740597,Point,-87.798132,44.638019
+Feature,Volks Landing Boat Launch,05-006,Dyckesville,115,,Point,-87.842968,44.618689
+Feature,Town of Scott Park,05-004,Dyckesville,90,,Point,-87.855215,44.619864
+Feature,Van Lanen,05-005,Wequiock (Green Bay),67,,Point,-87.90281,44.567499
+Feature,Riverside Dr,05-003,Suamico,103,,Point,-88.00955,44.630729
+Feature,Communiversity Park,05-002,Green Bay,1396,WI403290,Point,-87.928638,44.536367
+Feature,Ephraim,15-015,Ephraim,287,WI062070,Point,-87.175032,45.150127
+Feature,Nicolet,15-033,Fish Creek,944,WI512106,Point,-87.223493,45.165536
+Feature,Murphy Park,15-030,Egg Harbor,308,WI641986,Point,-87.332249,45.015403
+Feature,Sunset Park Sturgeon Bay,15-049,Sturgeon Bay,321,WI500512,Point,-87.385885,44.845513
+Feature,Potawatomi State Park #1,15-037,Sturgeon Bay,259,,Point,-87.404373,44.857495
+Feature,Potawatomi State Park #2,15-038,Sturgeon Bay,838,,Point,-87.411208,44.864043
+Feature,Sand Bay #1,15-040,Little Sturgeon,70,,Point,-87.498166,44.856508
+Feature,Sand Bay #2,15-041,Little Sturgeon,65,,Point,-87.502316,44.864543
+Feature,Haines Park,15-022,Little Sturgeon,60,WI826309,Point,-87.504379,44.855007
+Feature,Kickapoo Dr,15-025,Sturgeon Bay,100,,Point,-87.303521,44.805516
+Feature,Hemlock Ln,15-023,Sturgeon Bay,176,,Point,-87.246518,44.856369
+Feature,Bittersweet Ln,15-004,Sturgeon Bay,183,,Point,-87.240363,44.858631
+Feature,Sandy Bay Town Park,15-044,Rowleys Bay,354,WI282701,Point,-87.03994,45.212121
+Feature,Sand Cove,15-042,Northport,713,,Point,-86.983043,45.228979
+Feature,Ellison Bay Town Park,15-014,Ellison Bay,90,WI797561,Point,-87.077576,45.252883
+Feature,Sister Bay,15-046,Sister Bay,111,WI847906,Point,-87.121745,45.18997
+Feature,Otumba Park,15-034,Sturgeon Bay,166,WI873897,Point,-87.388879,44.830916
+Feature,Cliff View Dr,15-009,Sturgeon Bay,52,,Point,-87.456899,44.878856
+Feature,Braunsdorf,15-005,Claybanks,590,,Point,-87.362476,44.690404
+Feature,Clay Banks #1,15-007,Claybanks,897,,Point,-87.349552,44.708997
+Feature,Sturgeon Bay Canal Recreation Area,15-047,Sturgeon Bay,538,WI313701,Point,-87.314196,44.79219
+Feature,Winnebago Dr,15-053,Sturgeon Bay,76,,Point,-87.295683,44.809499
+Feature,Chippewa Dr,15-006,Sturgeon Bay,102,,Point,-87.289572,44.812447
+Feature,Lily Bay Boat Launch,15-029,Sturgeon Bay,175,,Point,-87.262741,44.849872
+Feature,Deer Path Ln,15-011,Sturgeon Bay,60,,Point,-87.252123,44.854347
+Feature,Goldenrod Ln,15-021,Sturgeon Bay,52,,Point,-87.228317,44.864296
+Feature,White Pine Ln,15-050,Sturgeon Bay,51,,Point,-87.22385,44.868732
+Feature,Whitefish Bay Boat Launch,15-051,Whitefish Bay,186,,Point,-87.216072,44.905689
+Feature,Lakeshore Dr Door,15-026,Jacksonport,36,,Point,-87.188382,44.961148
+Feature,Lakeside Park,15-027,Jacksonport,158,WI160438,Point,-87.183168,44.977959
+Feature,Anclam Park,15-001,Baileys Harbor,53,WI501955,Point,-87.124176,45.058648
+Feature,Bailey Harbor Ridges Park,15-003,Baileys Harbor,465,WI914897,Point,-87.118089,45.069692
+Feature,Isle View Rd,15-024,Northport,57,,Point,-86.972125,45.281932
+Feature,Garrett Bay Boat Launch,15-020,Gills Rock,55,,Point,-87.051135,45.285818
+Feature,Sand Dune,15-043,Washington Island,221,WI247871,Point,-86.897966,45.336834
+Feature,School House,15-045,Washington Island,607,WI584728,Point,-86.928092,45.398349
+Feature,Egg Harbor,15-013,Egg Harbor,327,WI421809,Point,-87.285905,45.045629
+Feature,Fish Creek,15-019,Fish Creek,165,WI805969,Point,-87.243212,45.127616
+Feature,County Rd TT,15-010,Sturgeon Bay,79,,Point,-87.275291,44.835191
+Feature,Arrowhead Ln,15-002,Sturgeon Bay,180,,Point,-87.234243,44.861068
+Feature,Pebble Beach Rd Door,15-035,Sister Bay,39,,Point,-87.151333,45.18488
+Feature,Whitefish Dunes,15-052,Whitefish Bay,6495,WI872074,Point,-87.19211,44.9231
+Feature,Newport Bay,15-031,Northport,2849,WI997969,Point,-86.986046,45.235439
+Feature,Rock Island State Park,15-039,Rock Island,1948,WI338621,Point,-86.82062,45.407366
+Feature,Europe Bay #3,15-018,Northport,1588,WI902641,Point,-86.984301,45.256022
+Feature,Europe Bay #2,15-017,Northport,474,WI186833,Point,-86.984851,45.258868
+Feature,Europe Bay #1,15-016,Northport,4214,WI890519,Point,-86.983843,45.26463
+Feature,Gislason Beach,15-012,Washington Island,205,WI218684,Point,-86.908849,45.340319
+Feature,Clay Banks #2,15-008,Claybanks,3318,,Point,-87.327711,44.759302
+Feature,Percy Johnson Memorial Park,15-036,Washington Island,495,WI160996,Point,-86.864459,45.363519
+Feature,Sunset,15-048,Fish Creek,159,WI845995,Point,-87.251873,45.129069
+Feature,Cresent,31-003,Algoma,2830,WI608310,Point,-87.437713,44.604261
+Feature,9th Ave Wayside,31-001,Algoma,910,,Point,-87.457753,44.565685
+Feature,Lighthouse Vista,31-004,Kewaunee,212,,Point,-87.495837,44.464642
+Feature,City of Kewanee,31-002,Kewaunee,2749,WI620050,Point,-87.500709,44.452813
+Feature,Red River Park,31-005,Dyckesville,324,,Point,-87.747842,44.668287
+Feature,Cedar Beach Rd,46-001,Bayfield,83,WI679515,Point,-87.795214,43.484767
+Feature,Sandy Beach Rd,46-005,Belgium,80,,Point,-87.802201,43.470474
+Feature,Upper Lake Park,46-006,Port Washington,1919,WI652173,Point,-87.862212,43.396041
+Feature,Maritime Dr Boat Launch,36-004,Manitowoc,418,WI792119,Point,-87.648798,44.100285
+Feature,Hika Park,36-002,Cleveland,205,WI932022,Point,-87.72364,43.916225
+Feature,Memorial Dr Wayside Middle,36-005,Manitowoc,1520,,Point,-87.623191,44.120808
+Feature,Memorial Dr Wayside South,36-007,Manitowoc,1397,WI422085,Point,-87.639656,44.110594
+Feature,Red Arrow Manitowoc,36-010,Manitowoc,1436,WI012139,Point,-87.655735,44.076064
+Feature,Lincoln Highschool,36-003,Manitowoc,436,,Point,-87.655482,44.078387
+Feature,Memorial Dr Wayside North,36-006,Two Rivers,9153,WI136397,Point,-87.583315,44.13796
+Feature,Pebble Beach Rd Ozaukee,46-011,Cedar Grove,66,,Point,-87.791437,43.543068
+Feature,Whitcomb Ave,60-013,Sheboygan,173,,Point,-87.708409,43.723437
+Feature,Wilson Lima (aka Whites),60-014,Oostburg,63,,Point,-87.731043,43.643402
+Feature,3rd St,60-001,Sheboygan,829,,Point,-87.706476,43.775118
+Feature,KK Rd,60-006,Oostburg,89,,Point,-87.741837,43.629307
+Feature,Foster Rd,60-004,Oostburg,56,,Point,-87.7474,43.622172
+Feature,Amsterdam,60-002,Cedar Grove,566,,Point,-87.791511,43.558347
+Feature,Van Ess Rd,60-011,Oostburg,35,,Point,-87.760298,43.606751
+Feature,Bender Park,41-003,Oak Creek,528,WI977064,Point,-87.839507,42.867689
+Feature,South Shore,41-011,Milwaukee,492,WI333813,Point,-87.881447,42.995052
+Feature,South Shore Rocky,41-012,Milwaukee,607,,Point,-87.878851,42.992996
+Feature,Atwater Park,41-001,Shorewood,778,WI607583,Point,-87.872884,43.090125
+Feature,Big Bay Park,41-004,Whitefish Bay,815,,Point,-87.888277,43.109057
+Feature,Klode Park,41-007,Whitefish Bay,473,WI291459,Point,-87.899825,43.124497
+Feature,Eichelman Park,30-002,Kenosha,678,WI197731,Point,-87.813014,42.579968
+Feature,Simmon Island Park,30-006,Kenosha,3044,WI892494,Point,-87.813489,42.591051
+Feature,Pennoyer Park,30-005,Kenosha,1537,WI130707,Point,-87.818143,42.604696
+Feature,Myers Park,52-002,Racine,193,,Point,-87.77892,42.718593
+Feature,Parkway,52-004,North Bay,482,,Point,-87.777232,42.76434
+Feature,County Rd D Boat Launch,46-002,Belgium,68,WI467224,Point,-87.793452,43.499465
+Feature,Harrington State Park South,46-010,Belgium,3231,WI564539,Point,-87.792712,43.489067
+Feature,Marina (aka Melissa),30-004,Kenosha,66,,Point,-87.805934,42.500054
+Feature,Jay Rd,46-004,Belgium,30,,Point,-87.794027,43.528467
+Feature,Silver Rd,46-007,Belgium,67,,Point,-87.793568,43.513863
+Feature,Portage Park,15-054,Sturgeon Bay,1756,WI757225,Point,-87.30686,44.799753
+Feature,Long Tail Point,05-008,Green Bay,13729,WI477262,Point,-87.988292,44.602349
+Feature,Little Sand Bay,04-019,Sand Bay,336,,Point,-90.888579,46.947383
+Feature,Joliet Park,05-009,Bay Settlement (Green Ba,1134,,Point,-87.914694,44.551648
+Feature,Bay Beach,05-007,Green Bay,1478,,Point,-87.979327,44.532323
+Feature,La Pointe Memorial,02-006,La Pointe,355,WI492046,Point,-90.784048,46.775075
+Feature,Conners Point,16-010,Superior,999,,Point,-92.098018,46.747251
+Feature,Peshtigo Harbor Boat Launch,38-005,Peshtigo,692,,Point,-87.656197,44.973038
+Feature,Oconto City Park,43-001,Oconto,217,,Point,-87.855099,44.858672
+Feature,Warm Water,36-014,Manitowoc,1490,WI747314,Point,-87.653989,44.082749
+Feature,Fischer Creek Park,36-001,Cleveland,5201,WI125039,Point,-87.718732,43.938224
+Feature,Lakeshore Dr Kenosha,30-003,Kenosha,1912,,Point,-87.811235,42.517217
+Feature,Michaelis Park,38-006,Marinette,491,,Point,-87.625464,45.040002
+Feature,Vollrath Park,60-012,Sheboygan,1668,,Point,-87.7039,43.771065
+Feature,General King Park,60-005,Sheboygan,4131,WI217913,Point,-87.7093,43.739858
+Feature,Bayview Park Milwaukee,41-002,St.Francis,513,,Point,-87.865738,42.984772
+Feature,Tietjen Doctors Park,41-013,Bayside,4388,WI746946,Point,-87.881126,43.171802
+Feature,Jackson Harbor Ridges,15-055,Jacksonport,1378,WI171560,Point,-86.851861,45.397045
+Feature,Two Creek Boat Launch,36-012,Two Creeks,3335,,Point,-87.544903,44.307391
+Feature,Virmond County Park,46-008,Mequon,2813,,Point,-87.89634,43.212348
+Feature,Lions Den Gorge Nature Preserve,46-009,Grafton,7262,,Point,-87.883091,43.342037
+Feature,Kohler-Andrae State Park North,60-007,Sheboygan,2487,WI313632,Point,-87.71099,43.673071
+Feature,Kohler-Andrae State Park North Picni,60-015,Sheboygan,1771,WI406325,Point,-87.722161,43.657012
+Feature,Harrington State Park North,46-003,Belgium,2552,WI407836,Point,-87.792713,43.496041
+Feature,YMCA,36-016,Manitowoc,464,WI279226,Point,-87.651539,44.094809
+Feature,Point State Park Concession Stand,36-009,Two Rivers,3272,WI997982,Point,-87.507264,44.223644
+Feature,Point State Park Lighthouse Picnic A,36-018,Two Rivers,23344,WI510658,Point,-87.507223,44.210742

@@ -1,7 +1,7 @@
 const popupFor = {
 
   // (point layer) panoramas
-  'wcg-panoramas.json': (properties) => `
+  'wcg-panoramas.csv': (properties) => `
     <div class="title-wrap panorama" style="border-left-color: ${properties.accentColor};">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Panorama
@@ -27,7 +27,7 @@ const popupFor = {
   `,
 
   // (point layer) beaches
-  'wcg-beaches.json': (properties) => `
+  'wcg-beaches.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Beach
@@ -59,7 +59,7 @@ const popupFor = {
   `,
 
   // (point layer) boat access points
-  'wcg-boat-access.json': (properties) => `
+  'wcg-boat-access.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Boat Access Point
@@ -74,7 +74,7 @@ const popupFor = {
   `,
 
   // (point layer) great lakes stories
-  'wcg-stories.json': (properties) => `
+  'wcg-stories.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Great Lakes Story
@@ -95,7 +95,7 @@ const popupFor = {
   `,
 
   // (point layer) historical sites along lake superior
-  'wcg-historic-ls.json': (properties) => `
+  'wcg-historic-ls.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Historical Site on Lake Superior
@@ -110,7 +110,7 @@ const popupFor = {
   `,
 
   // (point layer) lighthouses
-  'wcg-lighthouses.json': (properties) => `
+  'wcg-lighthouses.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Lighthouse
@@ -121,26 +121,28 @@ const popupFor = {
     </div>
     <div class="body-wrap">
       <p>${properties.description}</p>
-      <div class="separator"></div>
-      <p>Visit websites with more information about this lighthouse:</p>
-      <br />
-      ${JSON.parse(properties.links).map((d, i) =>
-        (d.link.indexOf('wisconsincoastalguide') >= 0)
-          ? ''
-          : `
-            <p>
-              <a href="${d.link}" target="_blank">
-                ${d.siteName}
-              </a>
-            </p>
-            `
-          )
-        }
     </div>
   `,
+  // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  // <div class="separator"></div>
+  // <p>Visit websites with more information about this lighthouse:</p>
+  // <br />
+  // ${JSON.parse(properties.links).map((d, i) =>
+  //   (d.link.indexOf('wisconsincoastalguide') >= 0)
+  //     ? ''
+  //     : `
+  //       <p>
+  //         <a href="${d.link}" target="_blank">
+  //           ${d.siteName}
+  //         </a>
+  //       </p>
+  //       `
+  //     )
+  //   }
+  // ----------------------------------------------------------------------
 
   // (point layer) marinas
-  'wcg-marinas.json': (properties) => {
+  'wcg-marinas.csv': (properties) => {
     properties.address = JSON.parse(properties.address)
     properties.link = JSON.parse(properties.link)
     return `
@@ -167,7 +169,7 @@ const popupFor = {
   },
 
   // (point layer) maritime geocaches
-  'wcg-maritime-geocaches.json': (properties) => `
+  'wcg-maritime-geocaches.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Maritime History Geocache
@@ -188,7 +190,7 @@ const popupFor = {
   `,
 
   // (point layer) nature centers
-  'wcg-nature-centers.json': (properties) => `
+  'wcg-nature-centers.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
       <p style="font-size: 1.4rem; color: ${properties.accentColor}">
         Nature Center
@@ -209,7 +211,7 @@ const popupFor = {
   `,
 
   // (point layer) parks
-  'wcg-parks.json': (properties) => {
+  'wcg-parks.csv': (properties) => {
     properties.links = JSON.parse(properties.links)
     return `
       <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">
@@ -237,7 +239,7 @@ const popupFor = {
   },
 
   // (point layer) shipwrecks
-  'wcg-shipwrecks.json': (properties) => {
+  'wcg-shipwrecks.csv': (properties) => {
     properties.ships = JSON.parse(properties.ships)
     properties.readMore = properties.readMore.replace(new RegExp("<a", "g"), "<a target='_blank'")
     return `
@@ -268,7 +270,7 @@ const popupFor = {
   },
 
   // (point layer) state natural areas
-  'wcg-sna.json': (properties) => {
+  'wcg-sna.csv': (properties) => {
     properties.links = JSON.parse(properties.links)
     return `
       <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">

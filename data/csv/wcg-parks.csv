@@ -1,0 +1,192 @@
+type,properties/name,properties/subtitle,properties/links/0/href,properties/links/0/text,geometry/type,geometry/coordinates/0,geometry/coordinates/1
+Feature,Apostle Islands National Lakeshore,National Park Service,http://www.nps.gov/apis/,Park Website,Point,-90.820515,46.812971
+Feature,Brule River State Forest,Wisconsin DNR,http://dnr.wi.gov/topic/stateforests/bruleriver/,Park Website,Point,-91.608989,46.748076
+Feature,Big Bay State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/bigbay/,Park Website,Point,-90.668611,46.798611
+Feature,Potawatomi State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/potawatomi/,Park Website,Point,-87.411389,44.863333
+Feature,Peninsula State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/peninsula/,Park Website,Point,-87.223333,45.165
+Feature,Rock Island State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/rockisland/,Park Website,Point,-86.828889,45.409167
+Feature,Newport State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/newport/,Park Website,Point,-86.9875,45.237778
+Feature,Whitefish Dunes State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/whitefish/,Park Website,Point,-87.182778,44.926945
+Feature,Point Beach State Forest,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/pointbeach/,Park Website,Point,-87.507778,44.223889
+Feature,Kohler-Andrae State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/kohlerandrae/,Park Website,Point,-87.723114,43.656572
+Feature,Harrington Beach State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/harrington/,Park Website,Point,-87.793078,43.496635
+Feature,Lakeshore State Park,Wisconsin DNR,http://dnr.wi.gov/topic/parks/name/lakeshore/,Park Website,Point,-87.895061,43.031816
+Feature,Alan Tomczak Park,Ashland County,,,Point,-90.849317,46.60884
+Feature,Second Landing,Ashland County,,,Point,-90.779773,46.63097
+Feature,Saxon Harbor,Iron County Forestry,http://www.ironcountyforest.org/index_files/Page613.htm,Park Website,Point,-90.439497,46.562108
+Feature,Michaelis Park,Marinette County,,,Point,-87.62562,45.039852
+Feature,North Bay Shore Recreation Area,Oconto County Forestry,https://www.co.oconto.wi.us/parks/camping/north_bayshore_county_park/,Park Website,Point,-87.781851,44.963267
+Feature,Suamico Boat Landing,Brown County,http://www.co.brown.wi.us/departments/page_fac451d7eba6/?department=260ed145263d&subdepartment=dadc284c6c54,Park Website,Point,-88.014539,44.63153
+Feature,L.H. Barkhausen Waterfowl Preserve,Brown County,http://www.co.brown.wi.us/departments/page_03513174fdfd/?department=260ed145263d&subdepartment=dadc284c6c54,Park Website,Point,-88.037872,44.598516
+Feature,Cecil DePeau Bay Shore Park,Brown County,http://www.co.brown.wi.us/departments/page_fe2f0b71389c/?department=260ed145263d&subdepartment=dadc284c6c54,Park Website,Point,-87.802775,44.638161
+Feature,Red River County Park,Kewaunee County,,,Point,-87.746944,44.667778
+Feature,Chaudoirs Dock County Park,Door County,http://map.co.door.wi.us/parks/Chaudoirs-Dock.htm,Park Website,Point,-87.698159,44.747124
+Feature,Sugar Creek County Park,Door County,http://map.co.door.wi.us/parks/Sugar-Creek.htm,Park Website,Point,-87.661201,44.788245
+Feature,Robert Carmody County Park,Door County,http://map.co.door.wi.us/parks/Carmody.htm,Park Website,Point,-87.560556,44.843611
+Feature,Olde Stone Quarry County Par,Door County,http://map.co.door.wi.us/parks/Olde-Stone-Quarry.htm,Park Website,Point,-87.405,44.904167
+Feature,Frank E. Murphy County Park,Door County,http://map.co.door.wi.us/parks/Murphy.htm,Park Website,Point,-87.332026,45.015422
+Feature,Ellison Bluff County Park,Door County,http://map.co.door.wi.us/parks/Ellison-Bluff.htm,Park Website,Point,-87.108581,45.255805
+Feature,Door Bluff Headlands County Park,Door County,http://map.co.door.wi.us/parks/Door-Bluff-Headlands.htm,Park Website,Point,-87.062494,45.297792
+Feature,Percy Johnson County Park,Door County,http://map.co.door.wi.us/parks/Percy-Johnson.htm,Park Website,Point,-86.864722,45.363611
+Feature,Cana Island Lighthouse,Door County,http://map.co.door.wi.us/parks/Cana-Island-Lighthouse.htm,Park Website,Point,-87.048283,45.088793
+Feature,Bailey’s Harbor Ridges County Park,Door County,http://map.co.door.wi.us/parks/Baileys-Harbor-Ridges.htm,Park Website,Point,-87.118056,45.070556
+Feature,Lyle-Harter-Matter Sanctuary County Park,Door County,http://map.co.door.wi.us/parks/Harter-Matter.htm,Park Website,Point,-87.166257,45.01471
+Feature,Meridian County Park,Door County,http://map.co.door.wi.us/parks/Meridian.htm,Park Website,Point,-87.161667,45.009167
+Feature,Cave Point County Park,Door County,http://map.co.door.wi.us/parks/Cave-Point.htm,Park Website,Point,-87.1725,44.930278
+Feature,Lily Bay County Park,Door County,http://map.co.door.wi.us/parks/Lily-Bay.htm,Park Website,Point,-87.262778,44.849722
+Feature,Robert LaSalle County Park,Door County,http://map.co.door.wi.us/parks/La-Salle.htm,Park Website,Point,-87.363697,44.690776
+Feature,Point Creek Conservation Area,Manitowoc County,http://www.co.manitowoc.wi.us/recreation/pointCreek.asp,Park Website,Point,-87.698889,43.970556
+Feature,Fischer Creek Conservation Area,Manitowoc County,http://www.manitowoc-county.com/recreation/fischer.asp,Park Website,Point,-87.719065,43.937286
+Feature,Lion’s Den Gorge Nature Preserve,Ozaukee County,http://www.co.ozaukee.wi.us/planningparks/LionsDen_Main.htm,Park Website,Point,-87.883793,43.34216
+Feature,Virmond Park,Ozaukee County,http://www.co.ozaukee.wi.us/planningparks/Virmond_Main.htm,Park Website,Point,-87.897355,43.211419
+Feature,Doctors Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.882911,43.168428
+Feature,Big Bay Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.888013,43.108002
+Feature,Lake Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.86443,43.070388
+Feature,Bradford Beach,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.869245,43.064845
+Feature,McKinley Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.881912,43.053435
+Feature,Veterans Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.887895,43.050826
+Feature,River Front Launch Site,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.903982,43.025194
+Feature,Cupertino Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.887728,43.000034
+Feature,South Shore Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.879866,42.992366
+Feature,BayView Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.862558,42.981528
+Feature,Sheridan Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.845948,42.957881
+Feature,Warnimont Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.847665,42.933194
+Feature,Grant Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.843383,42.906994
+Feature,Bender Park,Milwaukee County,http://county.milwaukee.gov/Parks,Park Website,Point,-87.839516,42.867342
+Feature,Cliffside Park,Racine County,http://publicworks.racineco.com/Parks/Index.aspx,Park Website,Point,-87.812,42.822276
+Feature,Superior Municipal Forest,City of Superior,http://www.ci.superior.wi.us/index.aspx?NID=224,Park Website,Point,-92.143707,46.692048
+Feature,Billings Park,City of Superior,http://www.ci.superior.wi.us/index.aspx?nid=172,Park Website,Point,-92.144944,46.713777
+Feature,Arrowhead Fishing Pier Recreational Complex,City of Superior,http://www.ci.superior.wi.us/index.aspx?nid=172,Park Website,Point,-92.143707,46.692048
+Feature,Harbor View Park,City of Superior,http://www.ci.superior.wi.us/index.aspx?nid=172,Park Website,Point,-92.068831,46.723516
+Feature,Barker's Island,City of Superior,http://www.ci.superior.wi.us/index.aspx?nid=172,Park Website,Point,-92.06197,46.722856
+Feature,Wisconsin Point,City of Superior,http://www.ci.superior.wi.us/index.aspx?NID=226,Park Website,Point,-91.985595,46.69175
+Feature,Clover Park,Town of Clover,http://www.herbsterwisconsin.com/?110040000000,Park Website,Point,-91.257439,46.83632
+Feature,Russell Town Park,Town of Russell,http://www.townofrussell.org/files/gicampground.html,Park Website,Point,-90.88876,46.947052
+Feature,Dalrymple Campground,City of Bayfield,http://www.cityofbayfield.com/dalrymple.html,Park Website,Point,-90.813647,46.810629
+Feature,East Dock Park,City of Bayfield,http://www.cityofbayfield.com/east-dock.html,Park Website,Point,-90.814167,46.808333
+Feature,City of Bayfield Beach,City of Bayfield,http://www.cityofbayfield.com/beach.html,Park Website,Point,-90.816949,46.807704
+Feature,Bayview Park,Town of Bayfield,http://www.townofbayview.org/parks.html,Park Website,Point,-90.884094,46.747985
+Feature,Houghton Falls Preserve,Town of Bayfield,http://www.townofbayview.org/parks.html,Park Website,Point,-90.854976,46.692958
+Feature,Washburn Memorial Park,City of Washburn,http://www.cityofwashburn.org/parks.htm#morial,Park Website,Point,-90.879459,46.675918
+Feature,Wikdal Landing,City of Washburn,http://www.cityofwashburn.org/parks.htm#downtown,Park Website,Point,-90.886192,46.670368
+Feature,Thompsons West End Park,City of Washburn,http://www.cityofwashburn.org/parks.htm#westend,Park Website,Point,-90.904744,46.666201
+Feature,Maslowski Park,City of Ashland,http://www.ashlandparks.org/,Park Website,Point,-90.919042,46.583421
+Feature,Marina Peninsula Park,City of Ashland,http://www.ashlandparks.org/,Park Website,Point,-90.887635,46.595705
+Feature,Kreher Park,City of Ashland,http://www.ashlandparks.org/,Park Website,Point,-90.882704,46.597177
+Feature,Bayview Park,City of Ashland,http://www.ashlandparks.org/,Park Website,Point,-90.863902,46.602675
+Feature,Menekaunee Walkway,City of Marinette,,,Point,-87.590377,45.089391
+Feature,Red Arrow Park,City of Marinette,http://www.marinette.wi.us/tourism_and_recreation/parks/red_arrow_park.php,Park Website,Point,-87.587527,45.086069
+Feature,Park,Town of Peshtigo,,,Point,-87.625378,45.033779
+Feature,Theodore G. Thompson Recreation Area,Town of Peshtigo,,,Point,-87.66875,44.9739
+Feature,Oconto Breakwater Park,City of Oconto,http://cityofoconto.com/Parks.html,Park Website,Point,-87.826244,44.897681
+Feature,Oconto City Docks,City of Oconto,http://cityofoconto.com/Parks.html,Park Website,Point,-87.84741,44.887332
+Feature,Oconto City Park,City of Oconto,http://cityofoconto.com/Parks.html,Park Website,Point,-87.855098,44.858623
+Feature,Bay Beach Park,City of Green Bay,http://greenbaywi.gov/baybeach/,Park Website,Point,-87.980833,44.531945
+Feature,Claflin Park,Town of Gardner,,,Point,-87.551042,44.848278
+Feature,Haines Town Park,Town of Nasewaupee,,,Point,-87.503887,44.854628
+Feature,Park/Boat Ramp,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.396172,44.842094
+Feature,Otumba Park,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.388611,44.830556
+Feature,Bayview Park,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.384167,44.830833
+Feature,Sawyer Park,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.380278,44.828611
+Feature,Sunset Park,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.385833,44.8475
+Feature,Beach Park,Village of Egg Harbor,http://www.villageofeggharbor.org/index.asp?Type=B_BASIC&SEC={1377FABB-C64E-4CBD-825D-6D6183197717},Park Website,Point,-87.285733,45.045565
+Feature,Dock Park,Village of Egg Harbor,http://www.villageofeggharbor.org/index.asp?Type=B_BASIC&SEC={1377FABB-C64E-4CBD-825D-6D6183197717},Park Website,Point,-87.2825,45.049722
+Feature,Sunset Beach Park,Town of Gibraltar,,,Point,-87.251458,45.129011
+Feature,Park,Town of Gibraltar,,,Point,-87.243333,45.127419
+Feature,Gibraltar Town Park (Chambers Island),Town of Gibraltar,,,Point,-87.364272,45.201211
+Feature,Village Beach,Village of Ephraim,,,Point,-87.174978,45.149994
+Feature,Harborside Park,Village of Ephraim,,,Point,-87.17015,45.155622
+Feature,Waterfront Park,Village of Sister Bay,http://www.sisterbay.com/Parks.htm,Park Website,Point,-87.121542,45.189767
+Feature,Grandview Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.082792,45.249587
+Feature,Ellison Bay Community Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.077883,45.252389
+Feature,Wills Park and Marina,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.074654,45.255136
+Feature,Garrett Bay Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.051139,45.285723
+Feature,Gills Rock Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.020978,45.292033
+Feature,Wisconsin Bay Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.009825,45.294975
+Feature,Porte des Morts Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-86.986358,45.295175
+Feature,Schoolhouse Beach,Town of Washington,http://www.washingtonisland.com/visitors-guide/attractions/,Park Website,Point,-86.928056,45.397778
+Feature,Jackson Harbor Dunes Park,Town of Washington,http://www.washingtonisland.com/visitors-guide/attractions/,Park Website,Point,-86.856681,45.397672
+Feature,Sand Dunes Park,Town of Washington,http://www.washingtonisland.com/visitors-guide/attractions/,Park Website,Point,-86.897778,45.336945
+Feature,Isle View Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-86.97255,45.28189
+Feature,Holz Memorial Town Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-86.985004,45.259375
+Feature,Sand Bay Town Park,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.04049,45.212181
+Feature,North Bay Boat Launch,Town of Liberty Grove,http://www.libertygrove.org/park-and-picnic-areas,Park Website,Point,-87.061253,45.151194
+Feature,Moonlight Bay Boat Ramp,Town of Baileys Harbor,http://www.baileysharbor.com/baileys-harbor-parks,Park Website,Point,-87.068052,45.081622
+Feature,Marina,Town of Baileys Harbor,http://www.baileysharbor.com/baileys-harbor-parks,Park Website,Point,-87.123319,45.065796
+Feature,Anclam Park,Town of Baileys Harbor,http://www.baileysharbor.com/baileys-harbor-parks,Park Website,Point,-87.123889,45.058056
+Feature,Lakeside Park,Town of Jacksonport,http://www.jacksonport.net/area-parks/,Park Website,Point,-87.183731,44.978067
+Feature,Schauer Park,Town of Jacksonport,http://www.jacksonport.net/area-parks/,Park Website,Point,-87.185467,44.945133
+Feature,Portage Park,Town of Sturgeon Bay,,,Point,-87.308761,44.799836
+Feature,Sturgeon Bay Canal Recreation Area,City of Sturgeon Bay,http://www.sturgeonbaywi.org/sturgeonbay/departments/parks++recreation/park+facilities/default.asp,Park Website,Point,-87.315097,44.79255
+Feature,Clay Banks Town Property,Town of Clay Banks,,,Point,-87.325446,44.762336
+Feature,Heritage Park,City of Algoma,,,Point,-87.433657,44.608043
+Feature,Christmas Tree Ship Point,City of Algoma,,,Point,-87.434819,44.606623
+Feature,Legion Park,City of Algoma,,,Point,-87.435712,44.60727
+Feature,Crescent Beach Boardwalk,City of Algoma,,,Point,-87.439495,44.601634
+Feature,Harbor Point Park,City of Kewaunee,http://www.kewaunee.org/Kewaunee-Public-Parks.html,Park Website,Point,-87.499926,44.460092
+Feature,Father Marquette Memorial Park,City of Kewaunee,http://www.kewaunee.org/Kewaunee-Public-Parks.html,Park Website,Point,-87.495989,44.464783
+Feature,Harbor Park,City of Kewaunee,http://www.kewaunee.org/Kewaunee-Public-Parks.html,Park Website,Point,-87.5021,44.459615
+Feature,Pioneer Park,City of Kewaunee,http://www.kewaunee.org/Kewaunee-Public-Parks.html,Park Website,Point,-87.499473,44.456954
+Feature,Selner Park,City of Kewaunee,http://www.kewaunee.org/Kewaunee-Public-Parks.htm,Park Website,Point,-87.500987,44.456021
+Feature,Natural Area,Town of Two Creeks,,,Point,-87.545269,44.307872
+Feature,Two Creeks Park,Town of Two Creeks,,,Point,-87.544728,44.305174
+Feature,Neshotah Park,City of Two Rivers,http://www.tworiverseconomicdevelopment.org/tourism/neshotah.htm,Park Website,Point,-87.555334,44.150589
+Feature,Lakeshore Park,City of Two Rivers,http://www.tworiverseconomicdevelopment.org/tourism/lakeshore-park.htm,Park Website,Point,-87.56989,44.142967
+Feature,Mariners Trail,Cities of Two Rivers and Manitowoc,http://www.manitowoc.org/marinerstrail.htm,Park Website,Point,-87.62028,44.122889
+Feature,Memorial Drive Wayside,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=32,Park Website,Point,-87.624174,44.120574
+Feature,Little Manitowoc River Walkway,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=29,Park Website,Point,-87.646335,44.105719
+Feature,Lakeview Park,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=7,Park Website,Point,-87.649392,44.100208
+Feature,Manitowoc Shipbuilders Company Park,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=30,Park Website,Point,-87.657061,44.092798
+Feature,Burger Boat Company Park,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=25,Park Website,Point,-87.656575,44.091712
+Feature,South Lakefront Wayside,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=34,Park Website,Point,-87.654043,44.084287
+Feature,Red Arrow Park,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=14,Park Website,Point,-87.656742,44.075758
+Feature,Silver Creek Park,City of Manitowoc,http://www.manitowoc.org/Facilities.aspx?Page=detail&RID=18,Park Website,Point,-87.654499,44.060978
+Feature,Hika Park,Village of Cleveland,http://www.clevelandwi.gov/parks.php,Park Website,Point,-87.72407,43.915767
+Feature,Northeast Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.707133,43.776151
+Feature,Vollrath Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.700968,43.767761
+Feature,North Point Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.696071,43.763214
+Feature,Deland Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.702717,43.754642
+Feature,Rotary Ridge Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.708008,43.749469
+Feature,Park - South Pier Drive,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.702777,43.747853
+Feature,General King Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.710325,43.736707
+Feature,Lakeview Park,City of Sheboygan,http://www.visitsheboygan.com/parks.html,Park Website,Point,-87.70745,43.720922
+Feature,Amsterdam Park,Town of Holland,,,Point,-87.792046,43.557945
+Feature,Upper Lake Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.864659,43.39401
+Feature,Guenther Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.86576,43.391637
+Feature,Port Washington Harbor Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.865853,43.39059
+Feature,Rotary Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.867854,43.387261
+Feature,Fishermans Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.868941,43.386781
+Feature,Coal Dock Park,City of Port Washington,http://portparkandrec.com/park_rental_descriptions.html,Park Website,Point,-87.867,43.385417
+Feature,Klode Park,Village of Whitefish Bay,http://www.wfbvillage.org/index.asp?Type=B_BASIC&SEC={1B181594-F707-4039-92B3-BA63E2C388AD},Park Website,Point,-87.899976,43.124561
+Feature,Silver Spring Overlook,Village of Whitefish Bay,http://www.wfbvillage.org/index.asp?Type=B_BASIC&SEC={1B181594-F707-4039-92B3-BA63E2C388AD},Park Website,Point,-87.897614,43.118449
+Feature,Buckley Park,Village of Whitefish Bay,http://www.wfbvillage.org/index.asp?Type=B_BASIC&SEC={1B181594-F707-4039-92B3-BA63E2C388AD},Park Website,Point,-87.891152,43.111022
+Feature,Atwater Park,Village of Shorewood,http://www.villageofshorewood.org/index.asp?Type=B_BASIC&SEC=%7BBD5F1CC7-19AA-4A5C-8B5D-F1AF8D92D942%7D,Park Website,Point,-87.874712,43.090631
+Feature,Conservancy,Village of Shorewood,,,Point,-87.870701,43.085129
+Feature,Chapla Park,Village of Caledonia,http://www.caledoniawi.com/Parks2.aspx,Park Website,Point,-87.808903,42.819385
+Feature,Wind Point,Village of Wind Point,,,Point,-87.757807,42.781352
+Feature,Shoop Park,City of Racine,,,Point,-87.76399,42.777574
+Feature,Park - Vincennes Circle,Village of North Bay,,,Point,-87.777541,42.764422
+Feature,Lakeview Park,City of Racine,,,Point,-87.782878,42.747279
+Feature,Racine Zoo,City of Racine,,,Point,-87.782218,42.748005
+Feature,Gilbert Knapp Park,City of Racine,,,Point,-87.7823,42.744332
+Feature,North Beach Park,City of Racine,,,Point,-87.779912,42.738397
+Feature,Racine Harbor Park,City of Racine,,,Point,-87.773213,42.732083
+Feature,Pershing Park,City of Racine,,,Point,-87.779165,42.726316
+Feature,Park - 11th Street,City of Racine,,,Point,-87.779045,42.719184
+Feature,Park - 14th Street,City of Racine,,,Point,-87.782402,42.715974
+Feature,Carre-Hogle Park,City of Racine,,,Point,-87.782464,42.710163
+Feature,DeKoven Park,City of Racine,,,Point,-87.783824,42.705913
+Feature,Roosevelt Park,City of Racine,,,Point,-87.787522,42.702117
+Feature,Lake Park,City of Racine,,,Point,-87.796512,42.687152
+Feature,Alford Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.821128,42.612709
+Feature,Pennoyer Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.818688,42.605229
+Feature,J.F. Kennedy Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.815793,42.596846
+Feature,Simmons Island Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.81563,42.590997
+Feature,Park at Harbor Entry,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.808775,42.587599
+Feature,Kenosha Public Musuem,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.813583,42.584581
+Feature,Wolfenbuttel Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.813689,42.581211
+Feature,Eichelman Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.814512,42.578952
+Feature,Kemper Center Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.813321,42.57506
+Feature,Park - 68th Street,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.813342,42.572395
+Feature,Southport Park,City of Kenosha,http://www.kenosha.org/departments/parks/Parks_at_a_Glance.pdf,Park Website,Point,-87.812679,42.561775
+Feature,Carol Beach Lake Properties,Village of Pleasant Prairie,http://www.pleasantprairieonline.com/parksandrec/index.asp,Park Website,Point,-87.81371,42.530689
