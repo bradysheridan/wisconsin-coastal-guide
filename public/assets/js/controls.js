@@ -1,8 +1,13 @@
-const bpMobile = 768;
+const bpMobile = 768
 
 $(function() {
   renderCheckboxes()
+
+  // set map state on a small delay to give mapbox time to load styles
+  setTimeout(setMapStateFromURL, 1000)
+
   $('.controls-toggler').on('click', toggleControls)
+
   if ($(window).width() > bpMobile) {
     toggleControls()
     $('.controls-toggler .open').hide()
@@ -11,7 +16,7 @@ $(function() {
   }
 })
 
-// loop through LAYERS and assign each object a checkbox; append checkboxes
+// loop through LAYERS and assign each object a checkbox append checkboxes
 // to DOM
 function renderCheckboxes() {
   var pointLayers = LAYER_KEYS.filter((k) => LAYERS[k].geographyType === "points")
@@ -72,3 +77,60 @@ function toggleControls() {
     $('.controls-toggler .close').fadeOut(100, () => $('.controls-toggler .open').fadeIn(100))
   }
 }
+
+// check for url variables and, if any, set the map state
+function setMapStateFromURL() {
+  let urlVars = getUrlVars()
+  let checkboxes = $('.checkbox-wrap')
+  console.log('urlVars', urlVars)
+  console.log('checkboxes', checkboxes)
+
+  if (urlVars.checkedPlaces) {
+    let checkedPlaces = (urlVars.checkedPlaces.indexOf(',') > 0) ? urlVars.checkedPlaces.split(",") : [urlVars.checkedPlaces]
+    checkedPlaces.forEach((id) => {
+      let el = $(`#${id}`)
+      el.click()
+    })
+  }
+}
+
+// get url variables
+function getUrlVars() {
+  let vars = {}
+  let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, (m, key, value) => {
+    vars[key] = value
+  })
+
+  return vars
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

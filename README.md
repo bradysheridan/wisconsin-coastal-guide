@@ -1,10 +1,10 @@
 # wisconsin-coastal-guide
 
 To Do
--	[ ] Update source data to be a CSV that David can edit that is converted to GeoJSON
 -	[ ] Static photo layer with Flickr links as sources
 -	[ ] Share map feature that captures map state and generates a corresponding delimited URL
-- [ ] Fix scroll problem that Rob keeps mentioning (recreate?)
+- [ ] Fix a problem where popups are positioned to the right third of the screen rather than being centered
 
 Done
 -	[X] Add zoom buttons
+-	[X] Update source data to be a series of Google Spreadsheets that David can edit
