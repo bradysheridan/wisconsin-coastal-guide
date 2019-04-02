@@ -4,8 +4,6 @@ $check-width: 5px;
 $check-height: 10px;
 $transition: 200ms;
 
-$accent-color: red;
-
 .checklist {
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +34,7 @@ $accent-color: red;
     user-select: none;
 
     &#wcg-panoramas { border-color: #F46036 !important; }
+    &#wcg-images { border-color: #33f56a !important; }
     &#wcg-beaches { border-color: #5B85AA !important; }
     &#wcg-boat-access { border-color: #36F1CD !important; }
     &#wcg-stories { border-color: #EF798A !important; }

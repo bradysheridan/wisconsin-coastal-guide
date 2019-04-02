@@ -157,6 +157,9 @@ li {
 .checklist .checkbox-wrap#wcg-panoramas {
   border-color: #F46036 !important;
 }
+.checklist .checkbox-wrap#wcg-images {
+  border-color: #33f56a !important;
+}
 .checklist .checkbox-wrap#wcg-beaches {
   border-color: #5B85AA !important;
 }

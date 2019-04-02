@@ -26,6 +26,21 @@ const popupFor = {
     </div>
   `,
 
+  // (point layer) images
+  'wcg-images.csv': (properties) => `
+    <div class="title-wrap panorama" style="border-left-color: ${properties.accentColor};">
+      <p style="font-size: 1.4rem; color: ${properties.accentColor}">
+        Image
+      </p>
+      <p>
+        ${properties.name}
+      </p>
+    </div>
+    <div class="body-wrap panorama" style="padding: 0px; margin: 0;">
+      <img src="${properties.src}" style="width: 100%; height: auto;" />
+    </div>
+  `,
+
   // (point layer) beaches
   'wcg-beaches.csv': (properties) => `
     <div class="title-wrap" style="border-left-color: ${properties.accentColor} !important;">

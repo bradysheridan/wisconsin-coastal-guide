@@ -15,6 +15,13 @@ let LAYERS = {
     "geographyType": "points",
     "fill": "#F46036"
   },
+  "wcg-images": {
+    "text": "Images",
+    "initiallyChecked": false,
+    "filename": "wcg-images.csv",
+    "geographyType": "points",
+    "fill": "#33f56a"
+  },
   "wcg-boat-access": {
     "text": "Boat Access Points",
     "initiallyChecked": false,

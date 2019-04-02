@@ -35,6 +35,7 @@ const sheets = {
   'wcg-maritime-geocaches.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=25232946&single=true&output=csv',
   'wcg-nature-centers.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=1315706149&single=true&output=csv',
   'wcg-panoramas.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=2138478141&single=true&output=csv',
+  'wcg-images.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=1441119624&single=true&output=csv',
   'wcg-parks.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=534677022&single=true&output=csv',
   'wcg-shipwrecks.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=861299969&single=true&output=csv',
   'wcg-sna.csv': 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVW4Zjj_Sr5cZUYaFKHs-wjhx_IgrcHuBABNUMlyOpNXCNznHxjkw6UzBE1s98aP3IA2ob1MjhSNM-/pub?gid=956643503&single=true&output=csv',
