@@ -80,6 +80,7 @@ const map = new mapboxgl.Map({
 
 // track active popup
 var mapState = {
+  featureToFocus: null,
   activePopup: null
 }
 
@@ -122,6 +123,13 @@ map.on('load', function() {
     positionOptions: { enableHighAccuracy: true },
     trackUserLocation: true
   }))
+
+  // if there's a feature to focus in the map state, focus it
+  if (mapState.featureToFocus) setTimeout(() => {
+    let sourceLayer = mapState.featureToFocus.split('.csv')[0] + '.csv'
+    let features = map.queryRenderedFeatures({ layers: [sourceLayer] }).filter((d) => d.properties.fid === mapState.featureToFocus)
+    handlePointClick({ features })
+  }, 600)
 
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)

@@ -51,7 +51,7 @@ const jsonFiles = [
 ]
 
 // parse csv string into feature collection geojson
-const parseCSV = (str) => {
+const parseCSV = (str, sheetName) => {
   let parsed = Papa.parse(str, {
       delimiter: ",",
       transform: (v) => v.replace(/"/g, '\\"')
@@ -62,9 +62,10 @@ const parseCSV = (str) => {
     console.log(parsed.errors)
   }
 
-  let features = parsed.data.map((vals) => {
+  let features = parsed.data.map((vals, i) => {
     let o = {}
     vals.forEach((val, i) => _.set(o, headers[i], val))
+    _.set(o, 'properties.fid', `${sheetName}-${i}`)
     return o
   })
 
@@ -84,7 +85,7 @@ app.get('/', async function(req, res) {
   let sheetNames = Object.keys(sheets)
   let sheetURLs = sheetNames.map((sheetName) => sheets[sheetName])
   let sheetCSVs = await getParallel(sheetURLs)
-  sheetCSVs.forEach((str, i) => data[sheetNames[i]] = parseCSV(str))
+  sheetCSVs.forEach((str, i) => data[sheetNames[i]] = parseCSV(str, sheetNames[i]))
 
   res.render('index', { data: JSON.stringify(data) })
 })

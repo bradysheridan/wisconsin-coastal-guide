@@ -12,9 +12,9 @@ function handlePointClick(e) {
 
   // ensure that if the map is zoomed out such that multiple copies of the
   // feature are visible, the popup appears over the copy being pointed to
-  while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360
-  }
+  // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+  //   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360
+  // }
 
   // define popup offset values
   var offset = 10
@@ -37,6 +37,7 @@ function handlePointClick(e) {
 
   // update map state
   popup.layerId = feature.layer.id
+  popup.properties = props
   mapState.activePopup = popup
 
   // reposition map

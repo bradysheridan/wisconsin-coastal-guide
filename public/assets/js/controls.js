@@ -1,8 +1,12 @@
 const bpMobile = 768
 
 $(function() {
+
+  // hide success indicator for map share button, which is absolutely positioned
+  // on top of the original button text
   $('.shareable-url-generator-wrap img#success').hide()
 
+  // grab url vars, if any
   let urlVars = getUrlVars()
 
   // if there's a predefined state, check the appropriate boxes
@@ -17,10 +21,19 @@ $(function() {
     renderCheckboxes(checked)
   }
 
+  // queue up the selected feature in map state (actual rendering of popup
+  // takes place in map.on('load') function in map.js
+  if (urlVars.selectedFid) {
+    mapState.featureToFocus = urlVars.selectedFid
+  }
+
+  // handle click for share button
   $('.shareable-url-generator-wrap').on('click', generateShareableURL)
 
+  // handle click for controls menu toggler
   $('.controls-toggler').on('click', toggleControls)
 
+  // initially, hide controls menu on mobile and show it on desktop
   if ($(window).width() > bpMobile) {
     toggleControls()
     $('.controls-toggler .open').hide()
@@ -114,20 +127,29 @@ let copying = false
 function generateShareableURL() {
   if (copying) return
 
+  // grab releveant elements
   let message = $('.shareable-url-generator-wrap p')
   let checkboxes = $('.checkbox-wrap')
-  let checked = ""
 
+  // determine selected checkboxes to commit to url map state
+  let checked = ""
   checkboxes.each((i, el) => {
     let input = $(el).children()[0]
     let isChecked = input.checked
     if (isChecked) checked += ("" === checked) ? el.id : `,${el.id}`
   })
 
+  // determine if there's a selected feature to commit to url map state
+  let selectedFid = (mapState.activePopup) ? mapState.activePopup.properties.fid : null
+
+  // format url
+  let urlChecked = `?checked=${checked}`
+  let urlSelected = (selectedFid) ? '&selectedFid=' + selectedFid : ''
   let url = (checked.length > 0)
-    ? `${window.location.origin}/?checked=${checked}`
+    ? `${window.location.origin}/${urlChecked}${urlSelected}`
     : window.location.origin
 
+  // format success message
   let messageStr = (checked.length > 0)
     ? "Link Copied"
     : ""
@@ -196,30 +218,3 @@ const copyToClipboard = str => {
     document.getSelection().addRange(selected)   // Restore the original selection
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
