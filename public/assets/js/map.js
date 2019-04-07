@@ -125,11 +125,18 @@ map.on('load', function() {
   }))
 
   // if there's a feature to focus in the map state, focus it
-  if (mapState.featureToFocus) setTimeout(() => {
-    let sourceLayer = mapState.featureToFocus.split('.csv')[0] + '.csv'
-    let features = map.queryRenderedFeatures({ layers: [sourceLayer] }).filter((d) => d.properties.fid === mapState.featureToFocus)
-    handlePointClick({ features })
-  }, 600)
+  if (mapState.featureToFocus) {
+    let interval = setInterval(focusFeature, 100)
+
+    function focusFeature() {
+      let sourceLayer = mapState.featureToFocus.split('.csv')[0] + '.csv'
+      let features = map.queryRenderedFeatures({ layers: [sourceLayer] }).filter((d) => d.properties.fid === mapState.featureToFocus)
+      if (Array.isArray(features) && features.length > 0) {
+        handlePointClick({ features })
+        clearInterval(interval)
+      }
+    }
+  }
 
   // logs coordinates of cursor when map is clicked (use to easily adjust
   // anchors and pan bounds)

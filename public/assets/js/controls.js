@@ -27,6 +27,14 @@ $(function() {
     mapState.featureToFocus = urlVars.selectedFid
   }
 
+  // set map zoom and center
+  if (urlVars.zoom && urlVars.center) {
+    urlVars.center = urlVars.center.split(',').map((str) => parseFloat(str))
+    urlVars.zoom = parseFloat(urlVars.zoom)
+    map.setZoom(urlVars.zoom)
+    map.setCenter(urlVars.center)
+  }
+
   // handle click for share button
   $('.shareable-url-generator-wrap').on('click', generateShareableURL)
 
@@ -145,8 +153,9 @@ function generateShareableURL() {
   // format url
   let urlChecked = `?checked=${checked}`
   let urlSelected = (selectedFid) ? '&selectedFid=' + selectedFid : ''
+  let urlZoomAndCenter = (selectedFid) ? '' : `&zoom=${map.getZoom()}&center=${[map.getCenter().lng, map.getCenter().lat]}` // only set zoom/center if there's no specific feature to be focused (the process itself of focusing the feature sets both zoom and center)
   let url = (checked.length > 0)
-    ? `${window.location.origin}/${urlChecked}${urlSelected}`
+    ? `${window.location.origin}/${urlChecked}${urlSelected}${urlZoomAndCenter}`
     : window.location.origin
 
   // format success message
